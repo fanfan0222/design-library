@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "settings-public-links",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings",
+                       "sub-page-or-dialog",
+                       "restrained"
+                   ],
+    "layout":  "Settings menu -\u003e Your public links",
+    "nav":  "sidebar footer Settings -\u003e Your public links",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Button Settings (mouse)",
+                   "MenuItem Your public links (MouseClick(1202,1242))"
+               ],
+    "notes":  "Gemini · 设置 · 公开链接",
+    "privacy":  "May show account info; redact before sharing.",
+    "captured_at":  "2026-10-11T14:12:52+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  914196,
+                  "ai":  275056
+              },
+    "url":  "gemini.google.com/sharing",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

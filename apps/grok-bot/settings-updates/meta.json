@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "settings-updates",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-dialog",
+                       "modal",
+                       "section-nav",
+                       "restrained"
+                   ],
+    "layout":  "settings modal, section 更新",
+    "nav":  "settings left nav 通用/电脑/用量与账单/更新",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop",
+    "clicks":  [
+                   "Button 打开账户菜单 (Expand)",
+                   "MenuItem 设置 (Invoke)",
+                   "Button 更新 (Invoke)"
+               ],
+    "notes":  "设置-更新 分区，仅查看",
+    "privacy":  "Settings may show account/usage/machine names; redact before sharing.",
+    "captured_at":  "2026-10-11T12:49:33+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  791490,
+                  "ai":  127499
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

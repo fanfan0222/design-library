@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "skills",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings",
+                       "sub-page-or-dialog",
+                       "restrained"
+                   ],
+    "layout":  "Settings menu -\u003e Skills",
+    "nav":  "sidebar footer Settings -\u003e Skills",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Button Settings (mouse)",
+                   "MenuItem Skills (MouseClick(1202,1080))"
+               ],
+    "notes":  "Gemini · 设置 · 技能",
+    "privacy":  "May show account info; redact before sharing.",
+    "captured_at":  "2026-10-11T14:12:07+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  695044,
+                  "ai":  146484
+              },
+    "url":  "gemini.google.com/skills",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,0 +1,34 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "google-apps",
+    "title":  "Google apps launcher",
+    "tier":  "first",
+    "style_tags":  [
+                       "apps-launcher",
+                       "overlay",
+                       "logged-out"
+                   ],
+    "layout":  "Google apps waffle",
+    "nav":  "Google apps",
+    "platform":  "web",
+    "source":  "https://gemini.google.com/app",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Google apps"
+               ],
+    "notes":  "Google apps launcher overlay",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:15:39+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  164704,
+                  "ai":  61794
+              },
+    "url":  "https://gemini.google.com/app",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

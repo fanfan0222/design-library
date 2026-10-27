@@ -1,0 +1,34 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "students",
+    "title":  "Students",
+    "tier":  "first",
+    "style_tags":  [
+                       "students",
+                       "marketing",
+                       "logged-out"
+                   ],
+    "layout":  "students landing",
+    "nav":  "Students",
+    "platform":  "web",
+    "source":  "https://accounts.google.com/v3/signin/identifier?continue=https://gemini.google.com/signin?continue%3Dhttps://gemini.google.com/students\u0026followup=https://gemini.google.com/signin?continue%3Dhttps://gemini.google.com/students\u0026passive=1209600\u0026flowName=GlifWebSignIn\u0026flowEntry=ServiceLogin\u0026dsh=S204872284:1791702962141243",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open /students"
+               ],
+    "notes":  "Students landing if available",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:16:08+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  37597,
+                  "ai":  33429
+              },
+    "url":  "https://accounts.google.com/v3/signin/identifier?continue=https://gemini.google.com/signin?continue%3Dhttps://gemini.google.com/students\u0026followup=https://gemini.google.com/signin?continue%3Dhttps://gemini.google.com/students\u0026passive=1209600\u0026flowName=GlifWebSignIn\u0026flowEntry=ServiceLogin\u0026dsh=S204872284:1791702962141243",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,0 +1,31 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "scheduled-tasks",
+    "tier":  "first",
+    "style_tags":  [
+                       "icon-rail",
+                       "sidebar",
+                       "content-page",
+                       "restrained"
+                   ],
+    "layout":  "icon rail + 定时任务 page",
+    "nav":  "icon rail -\u003e 定时任务",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT, window title ChatGPT)",
+    "clicks":  [
+                   "Button 定时任务 (Expand)"
+               ],
+    "notes":  "Codex 左侧导航「定时任务」页面",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:50:43+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  600582,
+                  "ai":  102600
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

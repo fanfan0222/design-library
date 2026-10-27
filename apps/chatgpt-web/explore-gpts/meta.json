@@ -1,0 +1,33 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "explore-gpts",
+    "title":  "探索 GPTs",
+    "tier":  "first",
+    "style_tags":  [
+                       "page"
+                   ],
+    "layout":  "sidebar + content page",
+    "nav":  "探索 GPTs",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open https://chatgpt.com/gpts"
+               ],
+    "notes":  "",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:31:08+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  60013,
+                  "ai":  80082
+              },
+    "url":  "https://chatgpt.com/gpts",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

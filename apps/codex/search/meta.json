@@ -1,0 +1,30 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "search",
+    "tier":  "first",
+    "style_tags":  [
+                       "command-palette",
+                       "search",
+                       "overlay"
+                   ],
+    "layout":  "search overlay",
+    "nav":  "sidebar header 搜索",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 搜索 (Invoke)"
+               ],
+    "notes":  "聊天搜索",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:52:32+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  723195,
+                  "ai":  118009
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

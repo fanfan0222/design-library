@@ -1,0 +1,30 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "more-menu",
+    "tier":  "first",
+    "style_tags":  [
+                       "popover-menu",
+                       "icon-rail",
+                       "restrained"
+                   ],
+    "layout":  "icon rail overflow popover (项目/地图/代码审查)",
+    "nav":  "icon rail ··· (UIA name 探索)",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 探索 (Expand)"
+               ],
+    "notes":  "侧栏「更多」弹出菜单",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:52:21+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  596361,
+                  "ai":  103743
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

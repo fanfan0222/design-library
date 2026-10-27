@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "new-chat-empty",
+    "tier":  "first",
+    "style_tags":  [
+                       "empty-state",
+                       "recipient-picker",
+                       "composer",
+                       "restrained",
+                       "light-density"
+                   ],
+    "layout":  "sidebar + blank canvas with 收件人 picker top + bottom composer",
+    "nav":  "sidebar 新建聊天 button",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop",
+    "clicks":  [
+                   "Button 新建聊天 (Invoke)"
+               ],
+    "notes":  "新建聊天空态（收件人：Start a chat with...），未发送消息",
+    "privacy":  "Sidebar conversation titles visible.",
+    "captured_at":  "2026-10-11T12:51:44+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  544816,
+                  "ai":  90855
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

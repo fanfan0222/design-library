@@ -1,0 +1,29 @@
+﻿# Capture / temp logs
+_cap_log*.txt
+_cap_skips*.txt
+*.tmp
+*.temp
+*.log
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# Python / caches if any
+__pycache__/
+*.pyc
+.pytest_cache/

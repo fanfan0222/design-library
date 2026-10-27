@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "settings-theme-menu",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings",
+                       "sub-page-or-dialog",
+                       "restrained"
+                   ],
+    "layout":  "Settings menu -\u003e Theme",
+    "nav":  "sidebar footer Settings -\u003e Theme",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Button Settings (mouse)",
+                   "MenuItem Theme (MouseClick(1202,1323))"
+               ],
+    "notes":  "Gemini · 设置 · 主题",
+    "privacy":  "May show account info; redact before sharing.",
+    "captured_at":  "2026-10-11T14:13:14+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1139103,
+                  "ai":  148760
+              },
+    "url":  "gemini.google.com/app",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

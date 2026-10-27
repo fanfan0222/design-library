@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "settings-security",
+    "title":  "设置 · Security and login",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-modal",
+                       "tabbed-settings"
+                   ],
+    "layout":  "settings section",
+    "nav":  "Settings \u003e Security and login",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Security and login"
+               ],
+    "notes":  "UI study only; no secrets in meta",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:43:14+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  93096,
+                  "ai":  122831
+              },
+    "url":  "https://chatgpt.com/settings/security",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

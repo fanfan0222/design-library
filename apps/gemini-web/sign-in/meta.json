@@ -1,0 +1,35 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "sign-in",
+    "title":  "Sign in (Google)",
+    "tier":  "first",
+    "style_tags":  [
+                       "login",
+                       "auth",
+                       "google",
+                       "logged-out"
+                   ],
+    "layout":  "Google account chooser / login",
+    "nav":  "Sign in",
+    "platform":  "web",
+    "source":  "https://accounts.google.com/v3/signin/identifier?continue=https://gemini.google.com/app\u0026flowName=GlifWebSignIn\u0026flowEntry=ServiceLogin\u0026dsh=S2114431522:1791702949828548",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open accounts.google.com ServiceLogin"
+               ],
+    "notes":  "Google auth for Gemini — box not logged in",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:15:57+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  37597,
+                  "ai":  33429
+              },
+    "url":  "https://accounts.google.com/v3/signin/identifier?continue=https://gemini.google.com/app\u0026flowName=GlifWebSignIn\u0026flowEntry=ServiceLogin\u0026dsh=S2114431522:1791702949828548",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

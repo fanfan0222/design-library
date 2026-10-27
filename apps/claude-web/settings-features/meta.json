@@ -1,0 +1,35 @@
+{
+    "app":  "Claude Web",
+    "screen":  "settings-features",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings",
+                       "section"
+                   ],
+    "layout":  "settings section",
+    "nav":  "https://claude.ai/settings/features",
+    "source":  "User Chrome fanfan OpenCLI+4K",
+    "clicks":  [
+                   "open https://claude.ai/settings/features"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-13T00:57:34+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  610589,
+                  "ai":  125438
+              },
+    "title":  "设置-功能",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://claude.ai/new#settings/capabilities",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K"
+}

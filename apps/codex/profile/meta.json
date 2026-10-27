@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "profile",
+    "tier":  "first",
+    "style_tags":  [
+                       "profile-page",
+                       "stats-cards",
+                       "chart",
+                       "restrained"
+                   ],
+    "layout":  "full-page profile: avatar, username, token stats, Token 活动 chart, 热门插件, 洞察",
+    "nav":  "settings nav [个人] -\u003e 个人资料",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 打开个人资料菜单",
+                   "MenuItem 设置 Ctrl+, (Invoke)",
+                   "Button 个人资料 (Invoke)"
+               ],
+    "notes":  "设置→个人资料 跳转到个人资料页（Token 统计/活动图/热门插件）",
+    "privacy":  "Shows username fanfanqwq and usage stats.",
+    "captured_at":  "2026-10-11T12:53:37+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  463856,
+                  "ai":  65608
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "settings-git",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-page",
+                       "section-nav",
+                       "form-rows",
+                       "restrained"
+                   ],
+    "layout":  "full-page settings: left grouped section list + right form (Git)",
+    "nav":  "settings nav [编码] -\u003e Git",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 打开个人资料菜单",
+                   "MenuItem 设置 Ctrl+, (Invoke)",
+                   "Button Git (Invoke)"
+               ],
+    "notes":  "Codex 设置 - Git，仅查看未改值",
+    "privacy":  "Settings may show account/email/paths; redact before sharing.",
+    "captured_at":  "2026-10-11T12:55:58+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  607084,
+                  "ai":  111273
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "details-info-tab",
+    "tier":  "first",
+    "style_tags":  [
+                       "three-pane",
+                       "details-drawer",
+                       "profile-card",
+                       "restrained"
+                   ],
+    "layout":  "sidebar + chat + right details drawer (详情 tab)",
+    "nav":  "right drawer tabs 详情/资料库/电脑",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop (process \"Grok Bot\")",
+    "clicks":  [
+                   "Button 查看对话详情 (Expand)",
+                   "TabItem 详情 (Select)"
+               ],
+    "notes":  "Bot 头像/名称/标签 + 详情信息",
+    "privacy":  "Contains real chat history / sidebar conversation titles; redact before sharing externally.",
+    "captured_at":  "2026-10-11T12:48:11+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  980515,
+                  "ai":  179996
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

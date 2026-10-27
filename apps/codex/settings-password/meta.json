@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "settings-password",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-page",
+                       "section-nav",
+                       "credentials-ui",
+                       "restrained"
+                   ],
+    "layout":  "full-page settings: left grouped section list + right form (密码)",
+    "nav":  "settings nav [集成] -\u003e 密码",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 打开个人资料菜单",
+                   "MenuItem 设置 Ctrl+, (Invoke)",
+                   "Button 密码 (Invoke)"
+               ],
+    "notes":  "Codex 设置 - 密码分区 UI 布局（仅查看截图）。meta 不记录任何密钥/口令内容。",
+    "privacy":  "Password/credential UI; may show account identifiers. Redact before sharing. No secret values copied into meta.",
+    "captured_at":  "2026-10-11T13:34:56+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  492721,
+                  "ai":  82477
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

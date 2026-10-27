@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "settings-cloud-computer",
+    "title":  "设置 · Cloud computer",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-modal",
+                       "tabbed-settings"
+                   ],
+    "layout":  "settings section",
+    "nav":  "Settings \u003e Cloud computer",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Cloud computer"
+               ],
+    "notes":  "UI study only; no secrets in meta",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:54:05+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  64154,
+                  "ai":  84105
+              },
+    "url":  "https://chatgpt.com/settings/cloud-computer",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

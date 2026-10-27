@@ -1,0 +1,35 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "new-project-modal",
+    "title":  "新建项目弹窗",
+    "tier":  "first",
+    "style_tags":  [
+                       "modal",
+                       "form",
+                       "projects"
+                   ],
+    "layout":  "centered modal",
+    "nav":  "Projects \u003e +",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Add new project"
+               ],
+    "notes":  "",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:29:53+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  58310,
+                  "ai":  71724
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

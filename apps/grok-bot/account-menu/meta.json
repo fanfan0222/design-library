@@ -1,0 +1,30 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "account-menu",
+    "tier":  "first",
+    "style_tags":  [
+                       "popover-menu",
+                       "account",
+                       "restrained"
+                   ],
+    "layout":  "popover menu anchored bottom-left above account button",
+    "nav":  "account menu",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop",
+    "clicks":  [
+                   "Button 打开账户菜单 (Expand)"
+               ],
+    "notes":  "账户弹出菜单",
+    "privacy":  "Account menu/settings show account name \u0026 email; chat history visible behind. Redact before sharing.",
+    "captured_at":  "2026-10-11T12:49:03+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  976164,
+                  "ai":  178231
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

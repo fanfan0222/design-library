@@ -1,0 +1,36 @@
+{
+    "app":  "Claude Web",
+    "screen":  "login",
+    "tier":  "first",
+    "style_tags":  [
+                       "login",
+                       "auth-wall",
+                       "marketing-shell"
+                   ],
+    "layout":  "centered auth on brand shell",
+    "nav":  "claude.ai/login",
+    "source":  "User Chrome on fanfan via OpenCLI + physical 4K fullscreen",
+    "clicks":  [
+                   "open claude.ai → redirected /login"
+               ],
+    "notes":  "Bridge profile not logged in; login wall only.",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-13T00:44:30+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  3104954,
+                  "ai":  149901
+              },
+    "title":  "登录页",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://claude.ai/login",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Google Chrome, maximized, physical 4K"
+}

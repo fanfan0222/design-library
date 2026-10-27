@@ -1,0 +1,31 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "library",
+    "tier":  "first",
+    "style_tags":  [
+                       "icon-rail",
+                       "sidebar",
+                       "content-page",
+                       "restrained"
+                   ],
+    "layout":  "icon rail + 资料库 page",
+    "nav":  "icon rail -\u003e 资料库",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT, window title ChatGPT)",
+    "clicks":  [
+                   "Button 资料库 (Invoke)"
+               ],
+    "notes":  "Codex 左侧导航「资料库」页面",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:50:47+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  662363,
+                  "ai":  102500
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

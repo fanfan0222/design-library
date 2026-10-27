@@ -1,0 +1,35 @@
+{
+    "app":  "Lovable",
+    "screen":  "dashboard",
+    "tier":  "first",
+    "style_tags":  [
+                       "dashboard",
+                       "projects"
+                   ],
+    "layout":  "dashboard",
+    "nav":  "https://lovable.dev/getting-started",
+    "source":  "User Chrome fanfan OpenCLI+4K same-tab clicks",
+    "clicks":  [
+                   "click Dashboard or /dashboard once"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI",
+    "captured_at":  "2026-10-13T01:10:58+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  4344085,
+                  "ai":  100711
+              },
+    "machine":  "fanfan",
+    "tool":  "opencli+uia-lib",
+    "title":  "项目面板",
+    "url":  "https://lovable.dev/getting-started",
+    "browser":  "Chrome maximized physical 4K",
+    "platform":  "web",
+    "style_doc":  "STYLE-GUIDE.md",
+    "logged_in":  true
+}

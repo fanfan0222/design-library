@@ -1,0 +1,36 @@
+{
+    "app":  "Claude Web",
+    "screen":  "projects",
+    "tier":  "first",
+    "style_tags":  [
+                       "projects",
+                       "grid",
+                       "sidebar"
+                   ],
+    "layout":  "projects list/grid",
+    "nav":  "/projects",
+    "source":  "User Chrome fanfan OpenCLI+4K",
+    "clicks":  [
+                   "open /projects"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-13T00:55:41+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  454808,
+                  "ai":  87911
+              },
+    "title":  "Projects",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://claude.ai/projects",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K"
+}

@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "search-chats",
+    "tier":  "first",
+    "style_tags":  [
+                       "search-page",
+                       "history",
+                       "list"
+                   ],
+    "layout":  "sidebar + search chats page with query field + results list",
+    "nav":  "sidebar -\u003e Search chats",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Hyperlink Search chats (MouseClick(639,368))"
+               ],
+    "notes":  "Gemini · 搜索对话",
+    "privacy":  "May show own content; redact before sharing.",
+    "captured_at":  "2026-10-11T14:06:04+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  709087,
+                  "ai":  147007
+              },
+    "url":  "gemini.google.com/search",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

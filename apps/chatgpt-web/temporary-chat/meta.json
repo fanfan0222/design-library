@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "temporary-chat",
+    "title":  "临时对话",
+    "tier":  "first",
+    "style_tags":  [
+                       "temporary-chat",
+                       "centered-composer"
+                   ],
+    "layout":  "centered composer, temp mode banner",
+    "nav":  "Header \u003e Temporary chat",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Temporary chat"
+               ],
+    "notes":  "",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:30:03+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  63273,
+                  "ai":  79193
+              },
+    "url":  "https://chatgpt.com/?temporary-chat=true",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

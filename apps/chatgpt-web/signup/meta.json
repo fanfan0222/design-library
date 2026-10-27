@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "signup",
+    "title":  "Sign up",
+    "tier":  "first",
+    "style_tags":  [
+                       "signup",
+                       "auth",
+                       "logged-out"
+                   ],
+    "layout":  "auth signup",
+    "nav":  "Sign up",
+    "platform":  "web",
+    "source":  "https://chatgpt.com/",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click 112"
+               ],
+    "notes":  "Sign up surface",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:13:43+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  83284,
+                  "ai":  62822
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

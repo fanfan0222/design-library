@@ -1,0 +1,32 @@
+{
+    "app":  "Cursor",
+    "screen":  "agents-main",
+    "tier":  "first",
+    "style_tags":  [
+                       "desktop",
+                       "agents",
+                       "ide-shell"
+                   ],
+    "layout":  "Cursor Agents desktop window maximized",
+    "nav":  "already open Cursor Agents",
+    "platform":  "Windows desktop",
+    "source":  "Cursor desktop on fanfan via UIA Focus-App",
+    "clicks":  [
+                   "Focus-App Cursor + maximize"
+               ],
+    "notes":  "Window title was Cursor Agents",
+    "privacy":  "May show project/agent names",
+    "captured_at":  "2026-10-13T00:47:02+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  547656,
+                  "ai":  107853
+              },
+    "title":  "Agents 主界面",
+    "style_doc":  "STYLE-GUIDE.md",
+    "machine":  "fanfan"
+}

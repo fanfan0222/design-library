@@ -1,0 +1,34 @@
+{
+    "app":  "Perplexity",
+    "screen":  "settings-account",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings"
+                   ],
+    "layout":  "settings",
+    "nav":  "https://www.perplexity.ai/",
+    "source":  "User Chrome fanfan OpenCLI+4K",
+    "clicks":  [
+                   "open settings"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-13T00:58:35+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  511013,
+                  "ai":  91547
+              },
+    "title":  "设置-账户",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://www.perplexity.ai/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K"
+}

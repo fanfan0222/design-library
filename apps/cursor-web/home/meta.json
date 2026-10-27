@@ -1,0 +1,35 @@
+{
+    "app":  "Cursor Web",
+    "screen":  "home",
+    "tier":  "first",
+    "style_tags":  [
+                       "marketing",
+                       "product-home"
+                   ],
+    "layout":  "cursor.com marketing/home",
+    "nav":  "https://cursor.com/agents",
+    "source":  "User Chrome on fanfan via OpenCLI + physical 4K fullscreen",
+    "clicks":  [
+                   "open cursor.com"
+               ],
+    "notes":  "title=Cursor Agent - Turn your ideas into code\r",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-13T00:46:47+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  387804,
+                  "ai":  88894
+              },
+    "title":  "官网首页",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://cursor.com/agents",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Google Chrome, maximized, physical 4K"
+}

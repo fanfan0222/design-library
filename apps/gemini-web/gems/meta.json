@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "gems",
+    "title":  "Gems",
+    "tier":  "first",
+    "style_tags":  [
+                       "gems",
+                       "logged-out"
+                   ],
+    "layout":  "gems gallery",
+    "nav":  "Gems",
+    "platform":  "web",
+    "source":  "https://gemini.google.com/app",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open gems"
+               ],
+    "notes":  "Gems page logged-out / redirect",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:16:32+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  145915,
+                  "ai":  46632
+              },
+    "url":  "https://gemini.google.com/app",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

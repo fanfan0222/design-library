@@ -1,0 +1,30 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "activity",
+    "tier":  "first",
+    "style_tags":  [
+                       "panel",
+                       "activity-feed",
+                       "restrained"
+                   ],
+    "layout":  "activity view",
+    "nav":  "sidebar header 查看活动",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 查看活动 (Toggle)"
+               ],
+    "notes":  "活动/任务进度视图",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:52:36+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  446398,
+                  "ai":  73770
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

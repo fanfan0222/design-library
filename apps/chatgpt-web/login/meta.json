@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "login",
+    "title":  "Log in / Auth",
+    "tier":  "first",
+    "style_tags":  [
+                       "login",
+                       "auth",
+                       "logged-out"
+                   ],
+    "layout":  "auth page",
+    "nav":  "auth",
+    "platform":  "web",
+    "source":  "https://chatgpt.com/auth/login",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open /auth/login"
+               ],
+    "notes":  "Direct auth URL — box Chrome not logged in",
+    "privacy":  "Auth UI",
+    "captured_at":  "2026-10-11T15:14:01+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  38221,
+                  "ai":  34233
+              },
+    "url":  "https://chatgpt.com/auth/login",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

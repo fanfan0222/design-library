@@ -1,0 +1,31 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "chat-thread",
+    "tier":  "first",
+    "style_tags":  [
+                       "chat",
+                       "thread",
+                       "agent-steps",
+                       "restrained"
+                   ],
+    "layout":  "icon rail + sidebar + conversation thread with agent tool steps + composer",
+    "nav":  "sidebar 最近 -\u003e chat",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 整理桌面文件归档 (Invoke)"
+               ],
+    "notes":  "已有本地会话对话态（灰色条目为不可打开的云端/其他设备会话，点击无反应）",
+    "privacy":  "Shows real conversation content (desktop file names).",
+    "captured_at":  "2026-10-11T12:58:46+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  709405,
+                  "ai":  133069
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

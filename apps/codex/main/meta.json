@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "main",
+    "tier":  "first",
+    "style_tags":  [
+                       "icon-rail",
+                       "sidebar",
+                       "hero-composer",
+                       "empty-state",
+                       "restrained"
+                   ],
+    "layout":  "left icon rail + chat/project sidebar + centered hero prompt 我们要构建什么？ + composer",
+    "nav":  "icon rail 首页/图像/定时任务/资料库/插件/探索/代码审查",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT, window title ChatGPT)",
+    "clicks":  [
+                   "focus+maximize; 首页"
+               ],
+    "notes":  "Codex 模式首页",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:50:34+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  595414,
+                  "ai":  103435
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

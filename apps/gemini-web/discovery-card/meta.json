@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "discovery-card",
+    "tier":  "first",
+    "style_tags":  [
+                       "modal",
+                       "onboarding",
+                       "feature-discovery",
+                       "consent"
+                   ],
+    "layout":  "centered feature discovery dialog over app",
+    "nav":  "appeared after visiting Personal Intelligence",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "(auto-shown)"
+               ],
+    "notes":  "Gemini · 新功能引导弹窗（只截图，点“关闭”）",
+    "privacy":  "none",
+    "captured_at":  "2026-10-11T14:10:43+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1177028,
+                  "ai":  149727
+              },
+    "url":  "gemini.google.com/app",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

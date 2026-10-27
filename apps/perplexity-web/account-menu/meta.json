@@ -1,0 +1,35 @@
+{
+    "app":  "Perplexity",
+    "screen":  "account-menu",
+    "tier":  "first",
+    "style_tags":  [
+                       "popover-menu",
+                       "account"
+                   ],
+    "layout":  "account popover",
+    "nav":  "Account button",
+    "source":  "User Chrome on fanfan via OpenCLI + physical 4K fullscreen",
+    "clicks":  [
+                   "click Account"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-13T00:45:25+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  528493,
+                  "ai":  97533
+              },
+    "title":  "账户菜单",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://www.perplexity.ai/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Google Chrome, maximized, physical 4K"
+}

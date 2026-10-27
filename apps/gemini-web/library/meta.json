@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "library",
+    "tier":  "first",
+    "style_tags":  [
+                       "asset-grid",
+                       "media-library",
+                       "filters"
+                   ],
+    "layout":  "sidebar + library grid with type filters",
+    "nav":  "sidebar -\u003e Library",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Hyperlink Library (MouseClick(639,584))"
+               ],
+    "notes":  "Gemini · 资料库",
+    "privacy":  "May show own content; redact before sharing.",
+    "captured_at":  "2026-10-11T14:07:18+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  3332508,
+                  "ai":  206852
+              },
+    "url":  "gemini.google.com/library?dest=manage",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "deep-research",
+    "title":  "Deep research",
+    "tier":  "first",
+    "style_tags":  [
+                       "modal",
+                       "deep-research",
+                       "logged-out"
+                   ],
+    "layout":  "dialog over home",
+    "nav":  "Deep research",
+    "platform":  "web",
+    "source":  "https://chatgpt.com/",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click 15"
+               ],
+    "notes":  "Deep research dialog",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:13:27+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  58760,
+                  "ai":  48737
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

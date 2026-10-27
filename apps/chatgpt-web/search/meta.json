@@ -1,0 +1,35 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "search",
+    "title":  "搜索对话",
+    "tier":  "first",
+    "style_tags":  [
+                       "command-palette",
+                       "modal",
+                       "search"
+                   ],
+    "layout":  "centered search modal over sidebar",
+    "nav":  "Sidebar \u003e Search",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Search"
+               ],
+    "notes":  "Chat search palette",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:29:24+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  54576,
+                  "ai":  67629
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

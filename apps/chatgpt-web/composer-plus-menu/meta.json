@@ -1,0 +1,35 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "composer-plus-menu",
+    "title":  "输入框 + 菜单",
+    "tier":  "first",
+    "style_tags":  [
+                       "composer",
+                       "popover-menu",
+                       "tools"
+                   ],
+    "layout":  "composer attached dropdown",
+    "nav":  "Composer \u003e +",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Add files and more"
+               ],
+    "notes":  "Attach / tools menu",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:29:33+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  87312,
+                  "ai":  95703
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

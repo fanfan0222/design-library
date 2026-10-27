@@ -1,0 +1,34 @@
+{
+    "app":  "Perplexity",
+    "screen":  "home",
+    "tier":  "first",
+    "style_tags":  [
+                       "search-home"
+                   ],
+    "layout":  "home",
+    "nav":  "https://www.perplexity.ai/",
+    "source":  "User Chrome fanfan OpenCLI+4K same-tab clicks",
+    "clicks":  [
+                   "open home once"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI",
+    "captured_at":  "2026-10-13T01:11:09+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  602492,
+                  "ai":  99374
+              },
+    "machine":  "fanfan",
+    "tool":  "opencli+uia-lib",
+    "title":  "首页/搜索",
+    "url":  "https://www.perplexity.ai/",
+    "browser":  "Chrome maximized physical 4K",
+    "platform":  "web",
+    "style_doc":  "STYLE-GUIDE.md",
+    "logged_in":  true
+}

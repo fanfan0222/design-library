@@ -1,0 +1,35 @@
+{
+    "app":  "v0",
+    "screen":  "chat",
+    "tier":  "first",
+    "style_tags":  [
+                       "chat",
+                       "generative-ide"
+                   ],
+    "layout":  "chat workspace",
+    "nav":  "https://v0.app/",
+    "source":  "User Chrome on fanfan via OpenCLI + physical 4K fullscreen",
+    "clicks":  [
+                   "open v0.app/chat"
+               ],
+    "notes":  "title=v0 by Vercel - Build Full-Stack Web Apps with AI\r",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-13T00:46:07+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1042089,
+                  "ai":  145891
+              },
+    "title":  "对话/生成工作台",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://v0.app/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Google Chrome, maximized, physical 4K"
+}

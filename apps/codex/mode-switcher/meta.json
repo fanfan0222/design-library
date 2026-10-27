@@ -1,0 +1,30 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "mode-switcher",
+    "tier":  "first",
+    "style_tags":  [
+                       "dropdown",
+                       "mode-switch",
+                       "restrained"
+                   ],
+    "layout":  "sidebar header dropdown: ChatGPT / Codex modes",
+    "nav":  "sidebar header",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 切换模式 (Expand)"
+               ],
+    "notes":  "模式切换下拉（未切换）",
+    "privacy":  "Sidebar shows real chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T12:52:28+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  708571,
+                  "ai":  113162
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

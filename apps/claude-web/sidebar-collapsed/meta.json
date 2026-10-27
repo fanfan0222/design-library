@@ -1,0 +1,35 @@
+{
+    "app":  "Claude Web",
+    "screen":  "sidebar-collapsed",
+    "tier":  "first",
+    "style_tags":  [
+                       "collapsed-rail",
+                       "minimal"
+                   ],
+    "layout":  "collapsed sidebar + main chat",
+    "nav":  "Hide sidebar",
+    "source":  "User Chrome fanfan OpenCLI+4K",
+    "clicks":  [
+                   "click Hide sidebar"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-13T00:55:13+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  461384,
+                  "ai":  89838
+              },
+    "title":  "侧栏收起",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://claude.ai/new",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K"
+}

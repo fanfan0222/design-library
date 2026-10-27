@@ -1,0 +1,34 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "chat-thread",
+    "tier":  "first",
+    "style_tags":  [
+                       "conversation",
+                       "message-thread",
+                       "markdown-rendering",
+                       "centered-column",
+                       "composer-bottom"
+                   ],
+    "layout":  "sidebar + centered message column + bottom composer",
+    "nav":  "sidebar Recent -\u003e chat",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Hyperlink recent chat (MouseClick(639,1718))"
+               ],
+    "notes":  "Gemini · 对话态",
+    "privacy":  "Contains real conversation content; redact.",
+    "captured_at":  "2026-10-11T14:07:29+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1403504,
+                  "ai":  146429
+              },
+    "url":  "gemini.google.com/app/e6af065fbc6d8027?dest=manage",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

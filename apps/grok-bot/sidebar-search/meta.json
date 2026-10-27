@@ -1,0 +1,31 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "sidebar-search",
+    "tier":  "first",
+    "style_tags":  [
+                       "command-palette",
+                       "search",
+                       "overlay",
+                       "restrained"
+                   ],
+    "layout":  "search overlay/palette",
+    "nav":  "sidebar 搜索 button",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop",
+    "clicks":  [
+                   "Button 搜索 (Invoke)"
+               ],
+    "notes":  "会话搜索 UI",
+    "privacy":  "Sidebar conversation titles/previews visible; redact before sharing.",
+    "captured_at":  "2026-10-11T12:49:57+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  868389,
+                  "ai":  134962
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

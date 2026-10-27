@@ -1,0 +1,34 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "about",
+    "title":  "About Gemini",
+    "tier":  "first",
+    "style_tags":  [
+                       "menu",
+                       "about",
+                       "logged-out"
+                   ],
+    "layout":  "about menu",
+    "nav":  "About Gemini",
+    "platform":  "web",
+    "source":  "https://gemini.google.com/app",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click 28"
+               ],
+    "notes":  "About Gemini menu",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:15:09+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  135433,
+                  "ai":  39154
+              },
+    "url":  "https://gemini.google.com/app",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

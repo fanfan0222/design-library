@@ -1,0 +1,34 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "chatgpt-mode-main",
+    "tier":  "first",
+    "style_tags":  [
+                       "mode-chatgpt",
+                       "sidebar",
+                       "hero-composer",
+                       "restrained"
+                   ],
+    "layout":  "ChatGPT mode main: icon rail + sidebar (pin/projects/recent) + centered composer",
+    "nav":  "mode switcher -\u003e ChatGPT",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT) — ChatGPT mode",
+    "clicks":  [
+                   "Button 切换模式，当前模式：Codex",
+                   "MenuItem ChatGPT 创建、学习和探索",
+                   "关闭欢迎对话框",
+                   "截完切回 Codex"
+               ],
+    "notes":  "ChatGPT 模式首页（对照 Codex 模式）。已关欢迎弹窗并切回 Codex。",
+    "privacy":  "Shows ChatGPT chat titles; redact before sharing.",
+    "captured_at":  "2026-10-11T13:36:30+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  531669,
+                  "ai":  88984
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

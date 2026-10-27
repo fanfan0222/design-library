@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "notebooks",
+    "title":  "Notebooks",
+    "tier":  "first",
+    "style_tags":  [
+                       "notebooks",
+                       "logged-out"
+                   ],
+    "layout":  "notebooks entry",
+    "nav":  "Notebooks",
+    "platform":  "web",
+    "source":  "https://gemini.google.com/notebook",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open notebooks URL"
+               ],
+    "notes":  "Notebooks entry (may redirect)",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:16:14+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  43465,
+                  "ai":  30797
+              },
+    "url":  "https://gemini.google.com/notebook",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

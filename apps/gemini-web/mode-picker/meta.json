@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "mode-picker",
+    "tier":  "first",
+    "style_tags":  [
+                       "model-picker",
+                       "dropdown-menu",
+                       "composer-anchored"
+                   ],
+    "layout":  "dropdown anchored to composer mode button listing models/modes",
+    "nav":  "composer -\u003e mode picker",
+    "platform":  "web",
+    "source":  "gemini.google.com in Chrome",
+    "clicks":  [
+                   "Button Open mode picker (MouseClick(0,0))"
+               ],
+    "notes":  "Gemini · 模型/模式选择",
+    "privacy":  "none",
+    "captured_at":  "2026-10-11T14:22:40+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  12404720,
+                  "ai":  240318
+              },
+    "url":  "https://gemini.google.com/app",
+    "browser":  "Google Chrome (default profile), maximized",
+    "style_doc":  "STYLE-GUIDE.md"
+}

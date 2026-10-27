@@ -1,0 +1,33 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "images",
+    "title":  "图片",
+    "tier":  "first",
+    "style_tags":  [
+                       "page"
+                   ],
+    "layout":  "sidebar + content page",
+    "nav":  "图片",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open https://chatgpt.com/images"
+               ],
+    "notes":  "",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:30:44+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1007480,
+                  "ai":  229678
+              },
+    "url":  "https://chatgpt.com/images/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

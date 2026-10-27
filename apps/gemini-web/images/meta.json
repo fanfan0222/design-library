@@ -1,0 +1,35 @@
+﻿{
+    "app":  "Gemini",
+    "screen":  "images",
+    "title":  "Images",
+    "tier":  "first",
+    "style_tags":  [
+                       "images",
+                       "gallery",
+                       "sidebar",
+                       "logged-out"
+                   ],
+    "layout":  "sidebar + images",
+    "nav":  "Images",
+    "platform":  "web",
+    "source":  "https://gemini.google.com/images",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Images"
+               ],
+    "notes":  "Images page logged-out",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:14:53+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  335819,
+                  "ai":  57039
+              },
+    "url":  "https://gemini.google.com/images",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

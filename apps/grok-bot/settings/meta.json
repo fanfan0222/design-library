@@ -1,0 +1,32 @@
+﻿{
+    "app":  "Grok Bot",
+    "screen":  "settings",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-dialog",
+                       "modal",
+                       "form-controls",
+                       "restrained"
+                   ],
+    "layout":  "centered modal settings over dimmed chat; left section nav + right form",
+    "nav":  "settings section nav",
+    "platform":  "Windows desktop",
+    "source":  "Grok Bot desktop",
+    "clicks":  [
+                   "Button 打开账户菜单 (Expand)",
+                   "MenuItem 设置 (Invoke)"
+               ],
+    "notes":  "默认（通用）设置分区，仅查看未改值",
+    "privacy":  "Account menu/settings show account name \u0026 email; chat history visible behind. Redact before sharing.",
+    "captured_at":  "2026-10-11T12:49:07+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  764435,
+                  "ai":  122621
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

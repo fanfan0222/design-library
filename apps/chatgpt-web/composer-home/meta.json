@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "composer-home",
+    "title":  "Composer home",
+    "tier":  "first",
+    "style_tags":  [
+                       "composer",
+                       "empty-state",
+                       "logged-out"
+                   ],
+    "layout":  "centered composer home",
+    "nav":  "home",
+    "platform":  "web",
+    "source":  "https://chatgpt.com/",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open home"
+               ],
+    "notes":  "Home empty state with composer (OpenCLI viewport)",
+    "privacy":  "Logged-out UI.",
+    "captured_at":  "2026-10-11T15:12:19+08:00",
+    "capture_mode":  "opencli-viewport",
+    "full_px":  "1920x1057",
+    "ai_px":  "1920x1057",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  59307,
+                  "ai":  49359
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  false,
+    "style_doc":  "STYLE-GUIDE.md"
+}

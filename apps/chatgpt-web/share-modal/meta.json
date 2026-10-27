@@ -1,0 +1,34 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "share-modal",
+    "title":  "分享对话弹窗",
+    "tier":  "first",
+    "style_tags":  [
+                       "modal",
+                       "share"
+                   ],
+    "layout":  "centered modal",
+    "nav":  "Thread \u003e Share",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Share"
+               ],
+    "notes":  "Did not create link",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:32:56+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  75862,
+                  "ai":  111598
+              },
+    "url":  "https://chatgpt.com/c/6a3edc11-4590-83ee-8a89-22fbeb7a01b6",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

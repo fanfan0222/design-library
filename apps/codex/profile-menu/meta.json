@@ -1,0 +1,29 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "profile-menu",
+    "tier":  "first",
+    "style_tags":  [
+                       "popover-menu",
+                       "account"
+                   ],
+    "layout":  "popover above avatar bottom-left",
+    "nav":  "icon rail avatar",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 打开个人资料菜单 (Expand)"
+               ],
+    "notes":  "个人资料菜单",
+    "privacy":  "May show account email.",
+    "captured_at":  "2026-10-11T12:52:42+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  472898,
+                  "ai":  79675
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}

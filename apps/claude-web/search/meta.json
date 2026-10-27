@@ -1,0 +1,36 @@
+{
+    "app":  "Claude Web",
+    "screen":  "search",
+    "tier":  "first",
+    "style_tags":  [
+                       "command-palette",
+                       "modal",
+                       "search"
+                   ],
+    "layout":  "search/command palette",
+    "nav":  "Ctrl+K / Search",
+    "source":  "User Chrome fanfan OpenCLI+4K",
+    "clicks":  [
+                   "Ctrl+K or click Search"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-13T00:55:29+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  492913,
+                  "ai":  95632
+              },
+    "title":  "搜索",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://claude.ai/new",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K"
+}

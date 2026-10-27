@@ -1,0 +1,35 @@
+﻿{
+    "app":  "ChatGPT Web",
+    "screen":  "sidebar-collapsed",
+    "title":  "侧栏收起",
+    "tier":  "first",
+    "style_tags":  [
+                       "collapsed-rail",
+                       "centered-composer",
+                       "minimal"
+                   ],
+    "layout":  "icon rail + centered composer",
+    "nav":  "Hide sidebar",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan (logged in) via OpenCLI browser bridge",
+    "tool":  "opencli",
+    "clicks":  [
+                   "click Hide sidebar"
+               ],
+    "notes":  "",
+    "privacy":  "Logged-in UI; may show account name / chat titles.",
+    "captured_at":  "2026-10-11T15:29:57+08:00",
+    "capture_mode":  "opencli-viewport-1920x1080",
+    "full_px":  "1920x1080",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  58310,
+                  "ai":  71724
+              },
+    "url":  "https://chatgpt.com/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

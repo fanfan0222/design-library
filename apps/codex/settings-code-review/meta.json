@@ -1,0 +1,33 @@
+﻿{
+    "app":  "Codex",
+    "screen":  "settings-code-review",
+    "tier":  "first",
+    "style_tags":  [
+                       "settings-page",
+                       "section-nav",
+                       "form-rows",
+                       "restrained"
+                   ],
+    "layout":  "full-page settings: left grouped section list + right form (代码审查)",
+    "nav":  "settings nav [编码] -\u003e 代码审查",
+    "platform":  "Windows desktop",
+    "source":  "Codex desktop (process ChatGPT)",
+    "clicks":  [
+                   "Button 打开个人资料菜单",
+                   "MenuItem 设置 Ctrl+, (Invoke)",
+                   "Button 代码审查 (Invoke)"
+               ],
+    "notes":  "Codex 设置 - 代码审查，仅查看未改值",
+    "privacy":  "Settings may show account/email/paths; redact before sharing.",
+    "captured_at":  "2026-10-11T12:55:54+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "3840x2160",
+    "ai_px":  "1920x1080",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  562390,
+                  "ai":  100806
+              },
+    "style_doc":  "STYLE-GUIDE.md"
+}
