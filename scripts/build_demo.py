@@ -2,9 +2,32 @@
 """Rebuild index.json + demo/screens-data.js from apps/*/*/meta.json."""
 import json, os, glob, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-APPS = {"grok-bot": {"name": "Grok Bot", "order": 0}, "codex": {"name": "Codex", "order": 1},
-        "chatgpt-web": {"name": "ChatGPT Web", "order": 2}, "gemini-web": {"name": "Gemini", "order": 3},
-        "cursor": {"name": "Cursor", "order": 4}, "antigravity": {"name": "Antigravity", "order": 5}, "qoder": {"name": "Qoder", "order": 9}}
+APPS = {
+  "grok-bot": {"name": "Grok Bot", "order": 0},
+  "codex": {"name": "Codex", "order": 1},
+  "chatgpt-web": {"name": "ChatGPT Web", "order": 2},
+  "gemini-web": {"name": "Gemini", "order": 3},
+  "claude-web": {"name": "Claude Web", "order": 4},
+  "perplexity-web": {"name": "Perplexity", "order": 5},
+  "v0-web": {"name": "v0", "order": 6},
+  "lovable-web": {"name": "Lovable", "order": 7},
+  "cursor-web": {"name": "Cursor Web", "order": 8},
+  "cursor": {"name": "Cursor", "order": 9},
+  "stripe-web": {"name": "Stripe Marketing", "order": 20},
+  "stripe-dashboard": {"name": "Stripe Dashboard", "order": 21},
+  "linear-web": {"name": "Linear", "order": 22},
+  "shopify-admin": {"name": "Shopify Admin", "order": 23},
+  "github-web": {"name": "GitHub", "order": 24},
+  "slack-web": {"name": "Slack", "order": 25},
+  "notion-web": {"name": "Notion", "order": 26},
+  "google-drive": {"name": "Google Drive", "order": 27},
+  "figma-web": {"name": "Figma", "order": 28},
+  "apple-web": {"name": "Apple", "order": 29},
+  "tradingview-web": {"name": "TradingView", "order": 30},
+  "aws-console": {"name": "AWS Console", "order": 31},
+  "antigravity": {"name": "Antigravity", "order": 90},
+  "qoder": {"name": "Qoder", "order": 91},
+}
 LABELS = {
  "grok-bot/main": "主聊天", "grok-bot/details-info-tab": "对话详情 · 详情", "grok-bot/details-media-tab": "对话详情 · 资料库",
  "grok-bot/details-computer-tab": "对话详情 · 电脑", "grok-bot/sidebar-search": "搜索面板", "grok-bot/new-chat-empty": "新建聊天（空态）",

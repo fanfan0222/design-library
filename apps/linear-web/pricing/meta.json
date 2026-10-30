@@ -1,0 +1,37 @@
+{
+    "app":  "Linear",
+    "screen":  "pricing",
+    "style_tags":  [
+                       "marketing",
+                       "forms",
+                       "pricing"
+                   ],
+    "layout":  "pricing page",
+    "nav":  "linear.app/pricing",
+    "source":  "User Chrome fanfan OpenCLI+fullscreen (1920x1200 ToDesk primary)",
+    "clicks":  [
+                   "nav pricing"
+               ],
+    "notes":  "App login SKIP",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-30T21:27:32+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "1920x1200",
+    "ai_px":  "1920x1200",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  2471526,
+                  "ai":  281536
+              },
+    "tool":  "opencli+uia-lib",
+    "url":  "https://linear.app/pricing",
+    "platform":  "web",
+    "logged_in":  false,
+    "resolution_note":  "ToDesk primary 1920x1200; 4K not in topology",
+    "browser":  "Chrome maximized 1920x1200",
+    "machine":  "fanfan",
+    "tier":  "classic",
+    "title":  "Pricing",
+    "style_doc":  "STYLE-GUIDE.md"
+}

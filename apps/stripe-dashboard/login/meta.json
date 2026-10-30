@@ -1,0 +1,37 @@
+{
+    "app":  "Stripe Dashboard",
+    "screen":  "login",
+    "tier":  "classic",
+    "style_tags":  [
+                       "forms",
+                       "login",
+                       "auth-wall"
+                   ],
+    "layout":  "dashboard login",
+    "nav":  "https://dashboard.stripe.com/login",
+    "source":  "User Chrome fanfan OpenCLI+physical 4K",
+    "clicks":  [
+                   "open dashboard.stripe.com"
+               ],
+    "notes":  "Login required",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-30T21:12:12+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "1920x1200",
+    "ai_px":  "1920x1200",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  2527771,
+                  "ai":  285076
+              },
+    "title":  "登录墙",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://dashboard.stripe.com/login",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K",
+    "resolution_note":  "Active Windows desktop was 1920x1200 (ToDesk primary); Radeon 4K not in EnumDisplayMonitors topology this session."
+}

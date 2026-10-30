@@ -1,0 +1,37 @@
+{
+    "app":  "TradingView",
+    "screen":  "chart",
+    "tier":  "classic",
+    "style_tags":  [
+                       "dense",
+                       "chart",
+                       "pro"
+                   ],
+    "layout":  "trading chart workspace",
+    "nav":  "https://www.tradingview.com/chart/",
+    "source":  "User Chrome fanfan OpenCLI+physical 4K",
+    "clicks":  [
+                   "open /chart/"
+               ],
+    "notes":  "High density; may show symbols",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-10-30T21:22:26+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "1920x1200",
+    "ai_px":  "1920x1200",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  2531145,
+                  "ai":  307379
+              },
+    "title":  "图表主壳",
+    "platform":  "web",
+    "tool":  "opencli+uia-lib",
+    "url":  "https://www.tradingview.com/chart/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "browser":  "Chrome maximized physical 4K",
+    "resolution_note":  "Active Windows desktop was 1920x1200 (ToDesk primary); Radeon 4K not in EnumDisplayMonitors topology this session."
+}

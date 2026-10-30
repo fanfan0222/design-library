@@ -1,0 +1,37 @@
+{
+    "app":  "Slack",
+    "screen":  "login",
+    "style_tags":  [
+                       "collab",
+                       "login",
+                       "auth-wall"
+                   ],
+    "layout":  "slack signin",
+    "nav":  "https://app.slack.com/workspace-signin?redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1793366862%26return_to%3D%252Fclient%26teams%3D",
+    "source":  "User Chrome fanfan OpenCLI+fullscreen (1920x1200 ToDesk primary)",
+    "clicks":  [
+                   "open client"
+               ],
+    "notes":  "deep SKIP",
+    "privacy":  "May show account/UI; redact before external.",
+    "captured_at":  "2026-10-30T21:27:57+08:00",
+    "capture_mode":  "fullscreen-physical",
+    "full_px":  "1920x1200",
+    "ai_px":  "1920x1200",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  2494543,
+                  "ai":  283450
+              },
+    "tool":  "opencli+uia-lib",
+    "url":  "https://app.slack.com/workspace-signin?redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1793366862%26return_to%3D%252Fclient%26teams%3D",
+    "platform":  "web",
+    "logged_in":  false,
+    "resolution_note":  "ToDesk primary 1920x1200; 4K not in topology",
+    "browser":  "Chrome maximized 1920x1200",
+    "machine":  "fanfan",
+    "tier":  "classic",
+    "title":  "登录墙",
+    "style_doc":  "STYLE-GUIDE.md"
+}

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-10-13T01:11:31+08:00",
+  "updated_at": "2026-10-30T21:32:00+08:00",
   "asset_convention": {
     "shot_full": "shot.png = 4K physical original",
     "shot_ai": "shot-ai.jpg = AI input 1920 long-edge JPEG q82"
@@ -3576,35 +3576,6 @@
       "bytes_ai": 141583
     },
     {
-      "id": "cursor/agents-main",
-      "app": "Cursor",
-      "slug": "cursor",
-      "screen": "agents-main",
-      "label": "agents-main",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "desktop",
-        "agents",
-        "ide-shell"
-      ],
-      "layout": "Cursor Agents desktop window maximized",
-      "nav": "already open Cursor Agents",
-      "clicks": [
-        "Focus-App Cursor + maximize"
-      ],
-      "notes": "Window title was Cursor Agents",
-      "privacy": "May show project/agent names",
-      "captured_at": "2026-10-13T00:47:02+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/cursor/agents-main/shot.png",
-      "shot_ai": "apps/cursor/agents-main/shot-ai.jpg",
-      "meta": "apps/cursor/agents-main/meta.json",
-      "bytes_full": 547656,
-      "bytes_ai": 107853
-    },
-    {
       "id": "claude-web/artifacts",
       "app": "Claude Web",
       "slug": "claude-web",
@@ -3749,229 +3720,6 @@
       "bytes_ai": 89838
     },
     {
-      "id": "cursor-web/agents",
-      "app": "Cursor Web",
-      "slug": "cursor-web",
-      "screen": "agents",
-      "label": "agents",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "agents",
-        "product-shell"
-      ],
-      "layout": "agents product page",
-      "nav": "https://cursor.com/agents",
-      "clicks": [
-        "open /agents"
-      ],
-      "notes": "title=Cursor Agent - Turn your ideas into code\r",
-      "privacy": "May show account/UI; redact before external share.",
-      "captured_at": "2026-10-13T00:46:59+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/cursor-web/agents/shot.png",
-      "shot_ai": "apps/cursor-web/agents/shot-ai.jpg",
-      "meta": "apps/cursor-web/agents/meta.json",
-      "bytes_full": 548619,
-      "bytes_ai": 108604
-    },
-    {
-      "id": "cursor-web/home",
-      "app": "Cursor Web",
-      "slug": "cursor-web",
-      "screen": "home",
-      "label": "home",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "marketing",
-        "product-home"
-      ],
-      "layout": "cursor.com marketing/home",
-      "nav": "https://cursor.com/agents",
-      "clicks": [
-        "open cursor.com"
-      ],
-      "notes": "title=Cursor Agent - Turn your ideas into code\r",
-      "privacy": "May show account/UI; redact before external share.",
-      "captured_at": "2026-10-13T00:46:47+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/cursor-web/home/shot.png",
-      "shot_ai": "apps/cursor-web/home/shot-ai.jpg",
-      "meta": "apps/cursor-web/home/meta.json",
-      "bytes_full": 387804,
-      "bytes_ai": 88894
-    },
-    {
-      "id": "lovable-web/dashboard",
-      "app": "Lovable",
-      "slug": "lovable-web",
-      "screen": "dashboard",
-      "label": "dashboard",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "dashboard",
-        "projects"
-      ],
-      "layout": "dashboard",
-      "nav": "https://lovable.dev/getting-started",
-      "clicks": [
-        "click Dashboard or /dashboard once"
-      ],
-      "notes": "",
-      "privacy": "May show account/UI",
-      "captured_at": "2026-10-13T01:10:58+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/lovable-web/dashboard/shot.png",
-      "shot_ai": "apps/lovable-web/dashboard/shot-ai.jpg",
-      "meta": "apps/lovable-web/dashboard/meta.json",
-      "bytes_full": 4344085,
-      "bytes_ai": 100711
-    },
-    {
-      "id": "lovable-web/home",
-      "app": "Lovable",
-      "slug": "lovable-web",
-      "screen": "home",
-      "label": "home",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "home",
-        "app-or-onboarding"
-      ],
-      "layout": "lovable after wizard",
-      "nav": "https://lovable.dev/getting-started",
-      "clicks": [
-        "wizard Next clicks"
-      ],
-      "notes": "https://lovable.dev/getting-started",
-      "privacy": "May show account/UI",
-      "captured_at": "2026-10-13T01:10:39+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/lovable-web/home/shot.png",
-      "shot_ai": "apps/lovable-web/home/shot-ai.jpg",
-      "meta": "apps/lovable-web/home/meta.json",
-      "bytes_full": 4387258,
-      "bytes_ai": 104391
-    },
-    {
-      "id": "perplexity-web/home",
-      "app": "Perplexity",
-      "slug": "perplexity-web",
-      "screen": "home",
-      "label": "home",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "search-home"
-      ],
-      "layout": "home",
-      "nav": "https://www.perplexity.ai/",
-      "clicks": [
-        "open home once"
-      ],
-      "notes": "",
-      "privacy": "May show account/UI",
-      "captured_at": "2026-10-13T01:11:09+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/perplexity-web/home/shot.png",
-      "shot_ai": "apps/perplexity-web/home/shot-ai.jpg",
-      "meta": "apps/perplexity-web/home/meta.json",
-      "bytes_full": 602492,
-      "bytes_ai": 99374
-    },
-    {
-      "id": "perplexity-web/spaces",
-      "app": "Perplexity",
-      "slug": "perplexity-web",
-      "screen": "spaces",
-      "label": "spaces",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "spaces"
-      ],
-      "layout": "spaces",
-      "nav": "https://www.perplexity.ai/",
-      "clicks": [
-        "click Spaces"
-      ],
-      "notes": "",
-      "privacy": "May show account/UI",
-      "captured_at": "2026-10-13T01:11:26+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/perplexity-web/spaces/shot.png",
-      "shot_ai": "apps/perplexity-web/spaces/shot-ai.jpg",
-      "meta": "apps/perplexity-web/spaces/meta.json",
-      "bytes_full": 607889,
-      "bytes_ai": 100302
-    },
-    {
-      "id": "v0-web/chat",
-      "app": "v0",
-      "slug": "v0-web",
-      "screen": "chat",
-      "label": "chat",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "chat",
-        "generative-ide"
-      ],
-      "layout": "chat workspace",
-      "nav": "https://v0.app/",
-      "clicks": [
-        "open v0.app/chat"
-      ],
-      "notes": "title=v0 by Vercel - Build Full-Stack Web Apps with AI\r",
-      "privacy": "May show account/UI; redact before external share.",
-      "captured_at": "2026-10-13T00:46:07+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/v0-web/chat/shot.png",
-      "shot_ai": "apps/v0-web/chat/shot-ai.jpg",
-      "meta": "apps/v0-web/chat/meta.json",
-      "bytes_full": 1042089,
-      "bytes_ai": 145891
-    },
-    {
-      "id": "v0-web/home",
-      "app": "v0",
-      "slug": "v0-web",
-      "screen": "home",
-      "label": "home",
-      "group": "主要页面",
-      "tier": "first",
-      "tags": [
-        "generative-ide",
-        "canvas",
-        "marketing-or-app"
-      ],
-      "layout": "v0 main shell",
-      "nav": "https://v0.app/",
-      "clicks": [
-        "open v0.dev"
-      ],
-      "notes": "title=v0 by Vercel - Build Full-Stack Web Apps with AI\r final=https://v0.app/",
-      "privacy": "May show account/UI; redact before external share.",
-      "captured_at": "2026-10-13T00:45:41+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/v0-web/home/shot.png",
-      "shot_ai": "apps/v0-web/home/shot-ai.jpg",
-      "meta": "apps/v0-web/home/meta.json",
-      "bytes_full": 1042113,
-      "bytes_ai": 145895
-    },
-    {
       "id": "claude-web/search",
       "app": "Claude Web",
       "slug": "claude-web",
@@ -3999,34 +3747,6 @@
       "meta": "apps/claude-web/search/meta.json",
       "bytes_full": 492913,
       "bytes_ai": 95632
-    },
-    {
-      "id": "perplexity-web/account-menu",
-      "app": "Perplexity",
-      "slug": "perplexity-web",
-      "screen": "account-menu",
-      "label": "account-menu",
-      "group": "菜单与弹层",
-      "tier": "first",
-      "tags": [
-        "popover-menu",
-        "account"
-      ],
-      "layout": "account popover",
-      "nav": "Account button",
-      "clicks": [
-        "click Account"
-      ],
-      "notes": "",
-      "privacy": "May show account/UI; redact before external share.",
-      "captured_at": "2026-10-13T00:45:25+08:00",
-      "full_px": "3840x2160",
-      "ai_px": "1920x1080",
-      "shot_full": "apps/perplexity-web/account-menu/shot.png",
-      "shot_ai": "apps/perplexity-web/account-menu/shot-ai.jpg",
-      "meta": "apps/perplexity-web/account-menu/meta.json",
-      "bytes_full": 528493,
-      "bytes_ai": 97533
     },
     {
       "id": "claude-web/settings",
@@ -4196,6 +3916,88 @@
       "bytes_ai": 115921
     },
     {
+      "id": "perplexity-web/home",
+      "app": "Perplexity",
+      "slug": "perplexity-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "search-home"
+      ],
+      "layout": "home",
+      "nav": "https://www.perplexity.ai/",
+      "clicks": [
+        "open home once"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI",
+      "captured_at": "2026-10-13T01:11:09+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/perplexity-web/home/shot.png",
+      "shot_ai": "apps/perplexity-web/home/shot-ai.jpg",
+      "meta": "apps/perplexity-web/home/meta.json",
+      "bytes_full": 602492,
+      "bytes_ai": 99374
+    },
+    {
+      "id": "perplexity-web/spaces",
+      "app": "Perplexity",
+      "slug": "perplexity-web",
+      "screen": "spaces",
+      "label": "spaces",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "spaces"
+      ],
+      "layout": "spaces",
+      "nav": "https://www.perplexity.ai/",
+      "clicks": [
+        "click Spaces"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI",
+      "captured_at": "2026-10-13T01:11:26+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/perplexity-web/spaces/shot.png",
+      "shot_ai": "apps/perplexity-web/spaces/shot-ai.jpg",
+      "meta": "apps/perplexity-web/spaces/meta.json",
+      "bytes_full": 607889,
+      "bytes_ai": 100302
+    },
+    {
+      "id": "perplexity-web/account-menu",
+      "app": "Perplexity",
+      "slug": "perplexity-web",
+      "screen": "account-menu",
+      "label": "account-menu",
+      "group": "菜单与弹层",
+      "tier": "first",
+      "tags": [
+        "popover-menu",
+        "account"
+      ],
+      "layout": "account popover",
+      "nav": "Account button",
+      "clicks": [
+        "click Account"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-13T00:45:25+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/perplexity-web/account-menu/shot.png",
+      "shot_ai": "apps/perplexity-web/account-menu/shot-ai.jpg",
+      "meta": "apps/perplexity-web/account-menu/meta.json",
+      "bytes_full": 528493,
+      "bytes_ai": 97533
+    },
+    {
       "id": "perplexity-web/settings-account",
       "app": "Perplexity",
       "slug": "perplexity-web",
@@ -4221,6 +4023,840 @@
       "meta": "apps/perplexity-web/settings-account/meta.json",
       "bytes_full": 511013,
       "bytes_ai": 91547
+    },
+    {
+      "id": "v0-web/chat",
+      "app": "v0",
+      "slug": "v0-web",
+      "screen": "chat",
+      "label": "chat",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "chat",
+        "generative-ide"
+      ],
+      "layout": "chat workspace",
+      "nav": "https://v0.app/",
+      "clicks": [
+        "open v0.app/chat"
+      ],
+      "notes": "title=v0 by Vercel - Build Full-Stack Web Apps with AI\r",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-13T00:46:07+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/v0-web/chat/shot.png",
+      "shot_ai": "apps/v0-web/chat/shot-ai.jpg",
+      "meta": "apps/v0-web/chat/meta.json",
+      "bytes_full": 1042089,
+      "bytes_ai": 145891
+    },
+    {
+      "id": "v0-web/home",
+      "app": "v0",
+      "slug": "v0-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "generative-ide",
+        "canvas",
+        "marketing-or-app"
+      ],
+      "layout": "v0 main shell",
+      "nav": "https://v0.app/",
+      "clicks": [
+        "open v0.dev"
+      ],
+      "notes": "title=v0 by Vercel - Build Full-Stack Web Apps with AI\r final=https://v0.app/",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-13T00:45:41+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/v0-web/home/shot.png",
+      "shot_ai": "apps/v0-web/home/shot-ai.jpg",
+      "meta": "apps/v0-web/home/meta.json",
+      "bytes_full": 1042113,
+      "bytes_ai": 145895
+    },
+    {
+      "id": "lovable-web/dashboard",
+      "app": "Lovable",
+      "slug": "lovable-web",
+      "screen": "dashboard",
+      "label": "dashboard",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "dashboard",
+        "projects"
+      ],
+      "layout": "dashboard",
+      "nav": "https://lovable.dev/getting-started",
+      "clicks": [
+        "click Dashboard or /dashboard once"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI",
+      "captured_at": "2026-10-13T01:10:58+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/lovable-web/dashboard/shot.png",
+      "shot_ai": "apps/lovable-web/dashboard/shot-ai.jpg",
+      "meta": "apps/lovable-web/dashboard/meta.json",
+      "bytes_full": 4344085,
+      "bytes_ai": 100711
+    },
+    {
+      "id": "lovable-web/home",
+      "app": "Lovable",
+      "slug": "lovable-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "home",
+        "app-or-onboarding"
+      ],
+      "layout": "lovable after wizard",
+      "nav": "https://lovable.dev/getting-started",
+      "clicks": [
+        "wizard Next clicks"
+      ],
+      "notes": "https://lovable.dev/getting-started",
+      "privacy": "May show account/UI",
+      "captured_at": "2026-10-13T01:10:39+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/lovable-web/home/shot.png",
+      "shot_ai": "apps/lovable-web/home/shot-ai.jpg",
+      "meta": "apps/lovable-web/home/meta.json",
+      "bytes_full": 4387258,
+      "bytes_ai": 104391
+    },
+    {
+      "id": "cursor-web/agents",
+      "app": "Cursor Web",
+      "slug": "cursor-web",
+      "screen": "agents",
+      "label": "agents",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "agents",
+        "product-shell"
+      ],
+      "layout": "agents product page",
+      "nav": "https://cursor.com/agents",
+      "clicks": [
+        "open /agents"
+      ],
+      "notes": "title=Cursor Agent - Turn your ideas into code\r",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-13T00:46:59+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/cursor-web/agents/shot.png",
+      "shot_ai": "apps/cursor-web/agents/shot-ai.jpg",
+      "meta": "apps/cursor-web/agents/meta.json",
+      "bytes_full": 548619,
+      "bytes_ai": 108604
+    },
+    {
+      "id": "cursor-web/home",
+      "app": "Cursor Web",
+      "slug": "cursor-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "marketing",
+        "product-home"
+      ],
+      "layout": "cursor.com marketing/home",
+      "nav": "https://cursor.com/agents",
+      "clicks": [
+        "open cursor.com"
+      ],
+      "notes": "title=Cursor Agent - Turn your ideas into code\r",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-13T00:46:47+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/cursor-web/home/shot.png",
+      "shot_ai": "apps/cursor-web/home/shot-ai.jpg",
+      "meta": "apps/cursor-web/home/meta.json",
+      "bytes_full": 387804,
+      "bytes_ai": 88894
+    },
+    {
+      "id": "cursor/agents-main",
+      "app": "Cursor",
+      "slug": "cursor",
+      "screen": "agents-main",
+      "label": "agents-main",
+      "group": "主要页面",
+      "tier": "first",
+      "tags": [
+        "desktop",
+        "agents",
+        "ide-shell"
+      ],
+      "layout": "Cursor Agents desktop window maximized",
+      "nav": "already open Cursor Agents",
+      "clicks": [
+        "Focus-App Cursor + maximize"
+      ],
+      "notes": "Window title was Cursor Agents",
+      "privacy": "May show project/agent names",
+      "captured_at": "2026-10-13T00:47:02+08:00",
+      "full_px": "3840x2160",
+      "ai_px": "1920x1080",
+      "shot_full": "apps/cursor/agents-main/shot.png",
+      "shot_ai": "apps/cursor/agents-main/shot-ai.jpg",
+      "meta": "apps/cursor/agents-main/meta.json",
+      "bytes_full": 547656,
+      "bytes_ai": 107853
+    },
+    {
+      "id": "stripe-web/home",
+      "app": "Stripe Marketing",
+      "slug": "stripe-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "hero",
+        "forms"
+      ],
+      "layout": "marketing hero + product nav",
+      "nav": "stripe.com",
+      "clicks": [
+        "open stripe.com"
+      ],
+      "notes": "Landing page",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:10:17+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/stripe-web/home/shot.png",
+      "shot_ai": "apps/stripe-web/home/shot-ai.jpg",
+      "meta": "apps/stripe-web/home/meta.json",
+      "bytes_full": 2523949,
+      "bytes_ai": 298534
+    },
+    {
+      "id": "stripe-web/payments",
+      "app": "Stripe Marketing",
+      "slug": "stripe-web",
+      "screen": "payments",
+      "label": "payments",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "product-page",
+        "forms"
+      ],
+      "layout": "product marketing page",
+      "nav": "stripe.com/payments",
+      "clicks": [
+        "open /payments"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:10:56+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/stripe-web/payments/shot.png",
+      "shot_ai": "apps/stripe-web/payments/shot-ai.jpg",
+      "meta": "apps/stripe-web/payments/meta.json",
+      "bytes_full": 2586509,
+      "bytes_ai": 286137
+    },
+    {
+      "id": "stripe-web/products",
+      "app": "Stripe Marketing",
+      "slug": "stripe-web",
+      "screen": "products",
+      "label": "products",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "nav",
+        "mega-menu"
+      ],
+      "layout": "products menu or page",
+      "nav": "Products",
+      "clicks": [
+        "click Products"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:10:28+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/stripe-web/products/shot.png",
+      "shot_ai": "apps/stripe-web/products/shot-ai.jpg",
+      "meta": "apps/stripe-web/products/meta.json",
+      "bytes_full": 2529271,
+      "bytes_ai": 286245
+    },
+    {
+      "id": "stripe-dashboard/checkout-demo",
+      "app": "Stripe Checkout Demo",
+      "slug": "stripe-dashboard",
+      "screen": "checkout-demo",
+      "label": "checkout-demo",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "checkout",
+        "marketing"
+      ],
+      "layout": "checkout demo",
+      "nav": "https://checkout.stripe.dev/",
+      "clicks": [
+        "open checkout.stripe.dev"
+      ],
+      "notes": "Public demo if reachable",
+      "privacy": "May show account/UI; redact before external.",
+      "captured_at": "2026-10-30T21:28:23+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/stripe-dashboard/checkout-demo/shot.png",
+      "shot_ai": "apps/stripe-dashboard/checkout-demo/shot-ai.jpg",
+      "meta": "apps/stripe-dashboard/checkout-demo/meta.json",
+      "bytes_full": 2525413,
+      "bytes_ai": 290001
+    },
+    {
+      "id": "stripe-dashboard/login",
+      "app": "Stripe Dashboard",
+      "slug": "stripe-dashboard",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "dashboard login",
+      "nav": "https://dashboard.stripe.com/login",
+      "clicks": [
+        "open dashboard.stripe.com"
+      ],
+      "notes": "Login required",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:12:12+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/stripe-dashboard/login/shot.png",
+      "shot_ai": "apps/stripe-dashboard/login/shot-ai.jpg",
+      "meta": "apps/stripe-dashboard/login/meta.json",
+      "bytes_full": 2527771,
+      "bytes_ai": 285076
+    },
+    {
+      "id": "linear-web/home",
+      "app": "Linear",
+      "slug": "linear-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "admin",
+        "list"
+      ],
+      "layout": "linear app or marketing logged",
+      "nav": "https://linear.app/",
+      "clicks": [
+        "after open/login"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:13:28+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/linear-web/home/shot.png",
+      "shot_ai": "apps/linear-web/home/shot-ai.jpg",
+      "meta": "apps/linear-web/home/meta.json",
+      "bytes_full": 2623536,
+      "bytes_ai": 302135
+    },
+    {
+      "id": "linear-web/pricing",
+      "app": "Linear",
+      "slug": "linear-web",
+      "screen": "pricing",
+      "label": "pricing",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "forms",
+        "pricing"
+      ],
+      "layout": "pricing page",
+      "nav": "linear.app/pricing",
+      "clicks": [
+        "nav pricing"
+      ],
+      "notes": "App login SKIP",
+      "privacy": "May show account/UI; redact before external.",
+      "captured_at": "2026-10-30T21:27:32+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/linear-web/pricing/shot.png",
+      "shot_ai": "apps/linear-web/pricing/shot-ai.jpg",
+      "meta": "apps/linear-web/pricing/meta.json",
+      "bytes_full": 2471526,
+      "bytes_ai": 281536
+    },
+    {
+      "id": "shopify-admin/login",
+      "app": "Shopify Admin",
+      "slug": "shopify-admin",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "shopify admin login",
+      "nav": "https://accounts.shopify.com/lookup?rid=2cbba3cc-7ae5-4bd4-867e-a137de81a820&verify=1793366081-DMpaiFlvCug57pg4R6TDh29Vd4eQSLpJItlgmlyUnu4%3D",
+      "clicks": [
+        "open admin.shopify.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:14:52+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/shopify-admin/login/shot.png",
+      "shot_ai": "apps/shopify-admin/login/shot-ai.jpg",
+      "meta": "apps/shopify-admin/login/meta.json",
+      "bytes_full": 2457052,
+      "bytes_ai": 286981
+    },
+    {
+      "id": "github-web/home",
+      "app": "GitHub",
+      "slug": "github-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "list",
+        "collab"
+      ],
+      "layout": "github home/dashboard",
+      "nav": "https://github.com/",
+      "clicks": [
+        "open github.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:16:12+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/github-web/home/shot.png",
+      "shot_ai": "apps/github-web/home/shot-ai.jpg",
+      "meta": "apps/github-web/home/meta.json",
+      "bytes_full": 2549470,
+      "bytes_ai": 296100
+    },
+    {
+      "id": "github-web/issues",
+      "app": "GitHub",
+      "slug": "github-web",
+      "screen": "issues",
+      "label": "issues",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "list"
+      ],
+      "layout": "github issues",
+      "nav": "https://github.com/issues",
+      "clicks": [
+        "location issues"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:16:34+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/github-web/issues/shot.png",
+      "shot_ai": "apps/github-web/issues/shot-ai.jpg",
+      "meta": "apps/github-web/issues/meta.json",
+      "bytes_full": 2529629,
+      "bytes_ai": 284186
+    },
+    {
+      "id": "slack-web/home",
+      "app": "Slack",
+      "slug": "slack-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "chat",
+        "sidebar"
+      ],
+      "layout": "slack workspace",
+      "nav": "https://slack.com/intl/ja-jp/",
+      "clicks": [
+        "open app.slack.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:17:37+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/slack-web/home/shot.png",
+      "shot_ai": "apps/slack-web/home/shot-ai.jpg",
+      "meta": "apps/slack-web/home/meta.json",
+      "bytes_full": 2520260,
+      "bytes_ai": 287791
+    },
+    {
+      "id": "slack-web/login",
+      "app": "Slack",
+      "slug": "slack-web",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "slack signin",
+      "nav": "https://app.slack.com/workspace-signin?redir=%2Fgantry%2Fauth%3Fapp%3Dclient%26lc%3D1793366862%26return_to%3D%252Fclient%26teams%3D",
+      "clicks": [
+        "open client"
+      ],
+      "notes": "deep SKIP",
+      "privacy": "May show account/UI; redact before external.",
+      "captured_at": "2026-10-30T21:27:57+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/slack-web/login/shot.png",
+      "shot_ai": "apps/slack-web/login/shot-ai.jpg",
+      "meta": "apps/slack-web/login/meta.json",
+      "bytes_full": 2494543,
+      "bytes_ai": 283450
+    },
+    {
+      "id": "notion-web/home",
+      "app": "Notion",
+      "slug": "notion-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "docs",
+        "sidebar"
+      ],
+      "layout": "notion workspace",
+      "nav": "https://www.notion.com/",
+      "clicks": [
+        "after open/login"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:18:40+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/notion-web/home/shot.png",
+      "shot_ai": "apps/notion-web/home/shot-ai.jpg",
+      "meta": "apps/notion-web/home/meta.json",
+      "bytes_full": 2548730,
+      "bytes_ai": 297641
+    },
+    {
+      "id": "notion-web/settings",
+      "app": "Notion",
+      "slug": "notion-web",
+      "screen": "settings",
+      "label": "settings",
+      "group": "设置",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "forms",
+        "settings"
+      ],
+      "layout": "settings modal/page",
+      "nav": "https://www.notion.com/",
+      "clicks": [
+        "click Settings"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:18:57+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/notion-web/settings/shot.png",
+      "shot_ai": "apps/notion-web/settings/shot-ai.jpg",
+      "meta": "apps/notion-web/settings/meta.json",
+      "bytes_full": 2512197,
+      "bytes_ai": 284544
+    },
+    {
+      "id": "google-drive/home",
+      "app": "Google Drive",
+      "slug": "google-drive",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "files",
+        "list",
+        "grid"
+      ],
+      "layout": "drive file browser",
+      "nav": "https://drive.google.com/drive/u/0/home",
+      "clicks": [
+        "open drive.google.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:20:39+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/google-drive/home/shot.png",
+      "shot_ai": "apps/google-drive/home/shot-ai.jpg",
+      "meta": "apps/google-drive/home/meta.json",
+      "bytes_full": 2523489,
+      "bytes_ai": 285029
+    },
+    {
+      "id": "google-drive/settings",
+      "app": "Google Drive",
+      "slug": "google-drive",
+      "screen": "settings",
+      "label": "settings",
+      "group": "设置",
+      "tier": "classic",
+      "tags": [
+        "files",
+        "settings",
+        "forms"
+      ],
+      "layout": "settings",
+      "nav": "https://drive.google.com/drive/u/0/home",
+      "clicks": [
+        "click Settings"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:20:59+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/google-drive/settings/shot.png",
+      "shot_ai": "apps/google-drive/settings/shot-ai.jpg",
+      "meta": "apps/google-drive/settings/meta.json",
+      "bytes_full": 2523252,
+      "bytes_ai": 285049
+    },
+    {
+      "id": "figma-web/files",
+      "app": "Figma",
+      "slug": "figma-web",
+      "screen": "files",
+      "label": "files",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "files",
+        "grid",
+        "collab"
+      ],
+      "layout": "figma file browser",
+      "nav": "https://www.figma.com/",
+      "clicks": [
+        "after open/login"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:21:41+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/figma-web/files/shot.png",
+      "shot_ai": "apps/figma-web/files/shot-ai.jpg",
+      "meta": "apps/figma-web/files/meta.json",
+      "bytes_full": 2491176,
+      "bytes_ai": 281489
+    },
+    {
+      "id": "apple-web/home",
+      "app": "Apple",
+      "slug": "apple-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "hero",
+        "apple"
+      ],
+      "layout": "apple.com home",
+      "nav": "apple.com",
+      "clicks": [
+        "open apple.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:11:13+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/apple-web/home/shot.png",
+      "shot_ai": "apps/apple-web/home/shot-ai.jpg",
+      "meta": "apps/apple-web/home/meta.json",
+      "bytes_full": 2470406,
+      "bytes_ai": 283605
+    },
+    {
+      "id": "apple-web/product",
+      "app": "Apple",
+      "slug": "apple-web",
+      "screen": "product",
+      "label": "product",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "product-page",
+        "apple"
+      ],
+      "layout": "iphone product page",
+      "nav": "apple.com/iphone",
+      "clicks": [
+        "open /iphone"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:11:42+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/apple-web/product/shot.png",
+      "shot_ai": "apps/apple-web/product/shot-ai.jpg",
+      "meta": "apps/apple-web/product/meta.json",
+      "bytes_full": 2561867,
+      "bytes_ai": 291557
+    },
+    {
+      "id": "tradingview-web/chart",
+      "app": "TradingView",
+      "slug": "tradingview-web",
+      "screen": "chart",
+      "label": "chart",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "chart",
+        "pro"
+      ],
+      "layout": "trading chart workspace",
+      "nav": "https://www.tradingview.com/chart/",
+      "clicks": [
+        "open /chart/"
+      ],
+      "notes": "High density; may show symbols",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:22:26+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/tradingview-web/chart/shot.png",
+      "shot_ai": "apps/tradingview-web/chart/shot-ai.jpg",
+      "meta": "apps/tradingview-web/chart/meta.json",
+      "bytes_full": 2531145,
+      "bytes_ai": 307379
+    },
+    {
+      "id": "tradingview-web/panel",
+      "app": "TradingView",
+      "slug": "tradingview-web",
+      "screen": "panel",
+      "label": "panel",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "panel"
+      ],
+      "layout": "side panel",
+      "nav": "https://www.tradingview.com/chart/",
+      "clicks": [
+        "click Watchlist"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:22:36+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/tradingview-web/panel/shot.png",
+      "shot_ai": "apps/tradingview-web/panel/shot-ai.jpg",
+      "meta": "apps/tradingview-web/panel/meta.json",
+      "bytes_full": 2530543,
+      "bytes_ai": 307594
+    },
+    {
+      "id": "aws-console/login",
+      "app": "AWS Console",
+      "slug": "aws-console",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "aws console login",
+      "nav": "https://ap-southeast-2.signin.aws.amazon.com/oauth?backwards_compatible=false&iam_user=true&scope=openid&response_type=code&code_challenge_method=SHA-256&redirect_uri=https%3A%2F%2Fap-southeast-2.console.aws.amazon.com%2Fconsole%2Fhome%3Fca-oauth-flow-id%3Da231%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_ap-southeast-2_5d4d387c2bb00276%26useDefaultRegion%3Dtrue&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=OyVl_6x7tOdLSz6TPRYW_BLae95iEcAUYNafZrZ_Wy0",
+      "clicks": [
+        "open console.aws.amazon.com"
+      ],
+      "notes": "Deep pages SKIP without login",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-10-30T21:23:18+08:00",
+      "full_px": "1920x1200",
+      "ai_px": "1920x1200",
+      "shot_full": "apps/aws-console/login/shot.png",
+      "shot_ai": "apps/aws-console/login/shot-ai.jpg",
+      "meta": "apps/aws-console/login/meta.json",
+      "bytes_full": 2644021,
+      "bytes_ai": 288867
     }
   ]
 }
