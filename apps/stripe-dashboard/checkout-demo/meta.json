@@ -1,0 +1,37 @@
+{
+    "app":  "Stripe Dashboard",
+    "screen":  "checkout-demo",
+    "title":  "Checkout 公开示意",
+    "tier":  "classic",
+    "style_tags":  [
+                       "forms",
+                       "checkout",
+                       "demo"
+                   ],
+    "layout":  "checkout.stripe.dev demo",
+    "nav":  "checkout.stripe.dev",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open checkout.stripe.dev"
+               ],
+    "notes":  "Public demo; not private dashboard",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:00:07+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  317647,
+                  "ai":  139735
+              },
+    "url":  "https://checkout.stripe.dev/",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

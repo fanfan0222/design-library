@@ -1,0 +1,36 @@
+{
+    "app":  "Notion",
+    "screen":  "home",
+    "title":  "营销/产品首页",
+    "tier":  "classic",
+    "style_tags":  [
+                       "collab",
+                       "marketing"
+                   ],
+    "layout":  "notion marketing home",
+    "nav":  "https://www.notion.com/",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "after open/login"
+               ],
+    "notes":  "Marketing surface on notion.com",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:03:57+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  208630,
+                  "ai":  139588
+              },
+    "url":  "https://www.notion.com/",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

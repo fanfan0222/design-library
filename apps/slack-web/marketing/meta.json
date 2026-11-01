@@ -1,0 +1,36 @@
+{
+    "app":  "Slack",
+    "screen":  "marketing",
+    "title":  "营销首页",
+    "tier":  "classic",
+    "style_tags":  [
+                       "collab",
+                       "marketing"
+                   ],
+    "layout":  "slack.com marketing",
+    "nav":  "slack.com",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open slack.com"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:02:45+08:00",
+    "capture_mode":  "opencli-fullpage",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1779x10992",
+    "ai_px":  "1779x10992",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1591631,
+                  "ai":  1172059
+              },
+    "url":  "https://slack.com/intl/ja-jp/",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

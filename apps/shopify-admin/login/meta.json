@@ -1,0 +1,37 @@
+{
+    "app":  "Shopify Admin",
+    "screen":  "login",
+    "title":  "登录墙",
+    "tier":  "classic",
+    "style_tags":  [
+                       "admin",
+                       "login",
+                       "auth-wall"
+                   ],
+    "layout":  "shopify admin login",
+    "nav":  "https://accounts.shopify.com/lookup?rid=39aba2a4-f0a6-4801-b48e-e777d62a8067\u0026verify=1793545310-WJopz%2Br7RbSg7rWuc%2B1KPgCFmDJ2yskr%2FOd1Dra6SZg%3D",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open admin.shopify.com"
+               ],
+    "notes":  "Deep SKIP",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:01:55+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  207141,
+                  "ai":  59295
+              },
+    "url":  "https://accounts.shopify.com/lookup?rid=39aba2a4-f0a6-4801-b48e-e777d62a8067\u0026verify=1793545310-WJopz%2Br7RbSg7rWuc%2B1KPgCFmDJ2yskr%2FOd1Dra6SZg%3D",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

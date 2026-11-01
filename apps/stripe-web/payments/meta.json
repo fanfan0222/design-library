@@ -1,0 +1,37 @@
+{
+    "app":  "Stripe Marketing",
+    "screen":  "payments",
+    "title":  "Payments 产品页",
+    "tier":  "classic",
+    "style_tags":  [
+                       "marketing",
+                       "product-page",
+                       "forms"
+                   ],
+    "layout":  "product marketing page",
+    "nav":  "stripe.com/payments",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open /payments"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T22:59:55+08:00",
+    "capture_mode":  "opencli-fullpage",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1779x18645",
+    "ai_px":  "1779x18645",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  3303721,
+                  "ai":  2048535
+              },
+    "url":  "https://stripe.com/en-jp/payments",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

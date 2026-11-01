@@ -1,0 +1,37 @@
+{
+    "app":  "GitHub",
+    "screen":  "home",
+    "title":  "首页/仪表",
+    "tier":  "classic",
+    "style_tags":  [
+                       "admin",
+                       "list",
+                       "collab"
+                   ],
+    "layout":  "github home/dashboard",
+    "nav":  "https://github.com/",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open github.com"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:02:12+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  260409,
+                  "ai":  138822
+              },
+    "url":  "https://github.com/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

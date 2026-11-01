@@ -3,7 +3,7 @@ $env:NO_UPDATE_NOTIFIER = '1'
 $script:Root = 'F:\project\design-library'
 if (-not $script:S) { $script:S = 'cg' }
 Add-Type -AssemblyName System.Drawing
-function OC { & opencli browser $script:S @args 2>$null }
+function OC { & opencli browser --session $script:S @args 2>$null }
 function OCw([double]$s = 2) { Start-Sleep -Milliseconds ([int]($s*1000)) }
 function OCurl { (OC eval 'location.href' | Out-String).Trim().Trim('"') }
 function Snap {

@@ -1,0 +1,37 @@
+{
+    "app":  "TradingView",
+    "screen":  "chart",
+    "title":  "图表主壳",
+    "tier":  "classic",
+    "style_tags":  [
+                       "dense",
+                       "chart",
+                       "pro"
+                   ],
+    "layout":  "trading chart workspace",
+    "nav":  "https://www.tradingview.com/chart/",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open /chart/"
+               ],
+    "notes":  "High density; may show symbols",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:05:29+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  37804,
+                  "ai":  64024
+              },
+    "url":  "https://www.tradingview.com/chart/",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

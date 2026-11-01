@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2026-11-01T22:56:46+08:00",
+  "updated_at": "2026-11-01T23:13:07+08:00",
   "asset_convention": {
     "shot_full": "shot.png = 4K physical original",
     "shot_ai": "shot-ai.jpg = AI input 1920 long-edge JPEG q82"
@@ -4221,6 +4221,581 @@
       "meta": "apps/cursor/agents-main/meta.json",
       "bytes_full": 547656,
       "bytes_ai": 107853
+    },
+    {
+      "id": "stripe-web/home",
+      "app": "Stripe Marketing",
+      "slug": "stripe-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "hero",
+        "forms"
+      ],
+      "layout": "marketing hero + product nav",
+      "nav": "stripe.com",
+      "clicks": [
+        "open stripe.com"
+      ],
+      "notes": "Landing page",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:07:29+08:00",
+      "full_px": "2420x14840",
+      "ai_px": "1920x11774",
+      "shot_full": "apps/stripe-web/home/shot.png",
+      "shot_ai": "apps/stripe-web/home/shot-ai.jpg",
+      "meta": "apps/stripe-web/home/meta.json",
+      "bytes_full": 2705810,
+      "bytes_ai": 1029623
+    },
+    {
+      "id": "stripe-web/payments",
+      "app": "Stripe Marketing",
+      "slug": "stripe-web",
+      "screen": "payments",
+      "label": "payments",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "product-page",
+        "forms"
+      ],
+      "layout": "product marketing page",
+      "nav": "stripe.com/payments",
+      "clicks": [
+        "open /payments"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T22:59:55+08:00",
+      "full_px": "1779x18645",
+      "ai_px": "1779x18645",
+      "shot_full": "apps/stripe-web/payments/shot.png",
+      "shot_ai": "apps/stripe-web/payments/shot-ai.jpg",
+      "meta": "apps/stripe-web/payments/meta.json",
+      "bytes_full": 3303721,
+      "bytes_ai": 2048535
+    },
+    {
+      "id": "stripe-dashboard/checkout-demo",
+      "app": "Stripe Dashboard",
+      "slug": "stripe-dashboard",
+      "screen": "checkout-demo",
+      "label": "checkout-demo",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "checkout",
+        "demo"
+      ],
+      "layout": "checkout.stripe.dev demo",
+      "nav": "checkout.stripe.dev",
+      "clicks": [
+        "open checkout.stripe.dev"
+      ],
+      "notes": "Public demo; not private dashboard",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:00:07+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/stripe-dashboard/checkout-demo/shot.png",
+      "shot_ai": "apps/stripe-dashboard/checkout-demo/shot-ai.jpg",
+      "meta": "apps/stripe-dashboard/checkout-demo/meta.json",
+      "bytes_full": 317647,
+      "bytes_ai": 139735
+    },
+    {
+      "id": "stripe-dashboard/login",
+      "app": "Stripe Dashboard",
+      "slug": "stripe-dashboard",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "dashboard login",
+      "nav": "https://dashboard.stripe.com/login",
+      "clicks": [
+        "open dashboard.stripe.com"
+      ],
+      "notes": "Login required",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:00:24+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/stripe-dashboard/login/shot.png",
+      "shot_ai": "apps/stripe-dashboard/login/shot-ai.jpg",
+      "meta": "apps/stripe-dashboard/login/meta.json",
+      "bytes_full": 591530,
+      "bytes_ai": 84524
+    },
+    {
+      "id": "linear-web/home",
+      "app": "Linear",
+      "slug": "linear-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "marketing",
+        "product"
+      ],
+      "layout": "linear marketing home",
+      "nav": "linear.app",
+      "clicks": [
+        "open linear.app"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:01:08+08:00",
+      "full_px": "1779x10024",
+      "ai_px": "1779x10024",
+      "shot_full": "apps/linear-web/home/shot.png",
+      "shot_ai": "apps/linear-web/home/shot-ai.jpg",
+      "meta": "apps/linear-web/home/meta.json",
+      "bytes_full": 2501680,
+      "bytes_ai": 895485
+    },
+    {
+      "id": "linear-web/login",
+      "app": "Linear",
+      "slug": "linear-web",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "linear login",
+      "nav": "https://linear.app/login",
+      "clicks": [
+        "open /login"
+      ],
+      "notes": "App deep SKIP",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:01:37+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/linear-web/login/shot.png",
+      "shot_ai": "apps/linear-web/login/shot-ai.jpg",
+      "meta": "apps/linear-web/login/meta.json",
+      "bytes_full": 28948,
+      "bytes_ai": 42114
+    },
+    {
+      "id": "linear-web/pricing",
+      "app": "Linear",
+      "slug": "linear-web",
+      "screen": "pricing",
+      "label": "pricing",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "forms",
+        "pricing",
+        "marketing"
+      ],
+      "layout": "pricing page",
+      "nav": "linear.app/pricing",
+      "clicks": [
+        "open /pricing"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:01:23+08:00",
+      "full_px": "1787x6192",
+      "ai_px": "1787x6192",
+      "shot_full": "apps/linear-web/pricing/shot.png",
+      "shot_ai": "apps/linear-web/pricing/shot-ai.jpg",
+      "meta": "apps/linear-web/pricing/meta.json",
+      "bytes_full": 373713,
+      "bytes_ai": 409370
+    },
+    {
+      "id": "shopify-admin/login",
+      "app": "Shopify Admin",
+      "slug": "shopify-admin",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "shopify admin login",
+      "nav": "https://accounts.shopify.com/lookup?rid=39aba2a4-f0a6-4801-b48e-e777d62a8067&verify=1793545310-WJopz%2Br7RbSg7rWuc%2B1KPgCFmDJ2yskr%2FOd1Dra6SZg%3D",
+      "clicks": [
+        "open admin.shopify.com"
+      ],
+      "notes": "Deep SKIP",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:01:55+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/shopify-admin/login/shot.png",
+      "shot_ai": "apps/shopify-admin/login/shot-ai.jpg",
+      "meta": "apps/shopify-admin/login/meta.json",
+      "bytes_full": 207141,
+      "bytes_ai": 59295
+    },
+    {
+      "id": "github-web/home",
+      "app": "GitHub",
+      "slug": "github-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "list",
+        "collab"
+      ],
+      "layout": "github home/dashboard",
+      "nav": "https://github.com/",
+      "clicks": [
+        "open github.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:02:12+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/github-web/home/shot.png",
+      "shot_ai": "apps/github-web/home/shot-ai.jpg",
+      "meta": "apps/github-web/home/meta.json",
+      "bytes_full": 260409,
+      "bytes_ai": 138822
+    },
+    {
+      "id": "github-web/issues",
+      "app": "GitHub",
+      "slug": "github-web",
+      "screen": "issues",
+      "label": "issues",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "admin",
+        "list"
+      ],
+      "layout": "github issues",
+      "nav": "https://github.com/issues",
+      "clicks": [
+        "location issues"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:02:22+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/github-web/issues/shot.png",
+      "shot_ai": "apps/github-web/issues/shot-ai.jpg",
+      "meta": "apps/github-web/issues/meta.json",
+      "bytes_full": 182863,
+      "bytes_ai": 99720
+    },
+    {
+      "id": "slack-web/login",
+      "app": "Slack",
+      "slug": "slack-web",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "slack signin",
+      "nav": "https://slack.com/signin#/signin",
+      "clicks": [
+        "open slack.com/signin"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:02:59+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/slack-web/login/shot.png",
+      "shot_ai": "apps/slack-web/login/shot-ai.jpg",
+      "meta": "apps/slack-web/login/meta.json",
+      "bytes_full": 47930,
+      "bytes_ai": 63174
+    },
+    {
+      "id": "slack-web/marketing",
+      "app": "Slack",
+      "slug": "slack-web",
+      "screen": "marketing",
+      "label": "marketing",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "marketing"
+      ],
+      "layout": "slack.com marketing",
+      "nav": "slack.com",
+      "clicks": [
+        "open slack.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:02:45+08:00",
+      "full_px": "1779x10992",
+      "ai_px": "1779x10992",
+      "shot_full": "apps/slack-web/marketing/shot.png",
+      "shot_ai": "apps/slack-web/marketing/shot-ai.jpg",
+      "meta": "apps/slack-web/marketing/meta.json",
+      "bytes_full": 1591631,
+      "bytes_ai": 1172059
+    },
+    {
+      "id": "notion-web/home",
+      "app": "Notion",
+      "slug": "notion-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "collab",
+        "marketing"
+      ],
+      "layout": "notion marketing home",
+      "nav": "https://www.notion.com/",
+      "clicks": [
+        "after open/login"
+      ],
+      "notes": "Marketing surface on notion.com",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:03:57+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/notion-web/home/shot.png",
+      "shot_ai": "apps/notion-web/home/shot-ai.jpg",
+      "meta": "apps/notion-web/home/meta.json",
+      "bytes_full": 208630,
+      "bytes_ai": 139588
+    },
+    {
+      "id": "google-drive/home",
+      "app": "Google Drive",
+      "slug": "google-drive",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "files",
+        "list",
+        "grid"
+      ],
+      "layout": "drive file browser",
+      "nav": "https://drive.google.com/drive/u/0/my-drive",
+      "clicks": [
+        "open drive"
+      ],
+      "notes": "captured after open wait",
+      "privacy": "May show filenames",
+      "captured_at": "2026-11-01T23:12:38+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/google-drive/home/shot.png",
+      "shot_ai": "apps/google-drive/home/shot-ai.jpg",
+      "meta": "apps/google-drive/home/meta.json",
+      "bytes_full": 154639,
+      "bytes_ai": 112786
+    },
+    {
+      "id": "figma-web/marketing",
+      "app": "Figma",
+      "slug": "figma-web",
+      "screen": "marketing",
+      "label": "marketing",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "files"
+      ],
+      "layout": "figma marketing home",
+      "nav": "https://www.figma.com/",
+      "clicks": [
+        "after open/login"
+      ],
+      "notes": "Logged-out marketing homepage (files browser needs login)",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:04:55+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/figma-web/marketing/shot.png",
+      "shot_ai": "apps/figma-web/marketing/shot-ai.jpg",
+      "meta": "apps/figma-web/marketing/meta.json",
+      "bytes_full": 64896,
+      "bytes_ai": 77205
+    },
+    {
+      "id": "apple-web/home",
+      "app": "Apple",
+      "slug": "apple-web",
+      "screen": "home",
+      "label": "home",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "hero",
+        "apple"
+      ],
+      "layout": "apple.com home",
+      "nav": "apple.com",
+      "clicks": [
+        "open apple.com"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:00:36+08:00",
+      "full_px": "1779x6060",
+      "ai_px": "1779x6060",
+      "shot_full": "apps/apple-web/home/shot.png",
+      "shot_ai": "apps/apple-web/home/shot-ai.jpg",
+      "meta": "apps/apple-web/home/meta.json",
+      "bytes_full": 1247875,
+      "bytes_ai": 566035
+    },
+    {
+      "id": "apple-web/product",
+      "app": "Apple",
+      "slug": "apple-web",
+      "screen": "product",
+      "label": "product",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "marketing",
+        "product-page",
+        "apple"
+      ],
+      "layout": "iphone product page",
+      "nav": "apple.com/iphone",
+      "clicks": [
+        "open /iphone"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:00:51+08:00",
+      "full_px": "1779x15735",
+      "ai_px": "1779x15735",
+      "shot_full": "apps/apple-web/product/shot.png",
+      "shot_ai": "apps/apple-web/product/shot-ai.jpg",
+      "meta": "apps/apple-web/product/meta.json",
+      "bytes_full": 4001858,
+      "bytes_ai": 3558457
+    },
+    {
+      "id": "tradingview-web/chart",
+      "app": "TradingView",
+      "slug": "tradingview-web",
+      "screen": "chart",
+      "label": "chart",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "chart",
+        "pro"
+      ],
+      "layout": "trading chart workspace",
+      "nav": "https://www.tradingview.com/chart/",
+      "clicks": [
+        "open /chart/"
+      ],
+      "notes": "High density; may show symbols",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:05:29+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/tradingview-web/chart/shot.png",
+      "shot_ai": "apps/tradingview-web/chart/shot-ai.jpg",
+      "meta": "apps/tradingview-web/chart/meta.json",
+      "bytes_full": 37804,
+      "bytes_ai": 64024
+    },
+    {
+      "id": "tradingview-web/panel",
+      "app": "TradingView",
+      "slug": "tradingview-web",
+      "screen": "panel",
+      "label": "panel",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "panel"
+      ],
+      "layout": "side panel",
+      "nav": "https://www.tradingview.com/chart/",
+      "clicks": [
+        "click Watchlist"
+      ],
+      "notes": "",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:05:40+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/tradingview-web/panel/shot.png",
+      "shot_ai": "apps/tradingview-web/panel/shot-ai.jpg",
+      "meta": "apps/tradingview-web/panel/meta.json",
+      "bytes_full": 37302,
+      "bytes_ai": 63938
+    },
+    {
+      "id": "aws-console/login",
+      "app": "AWS Console",
+      "slug": "aws-console",
+      "screen": "login",
+      "label": "login",
+      "group": "主要页面",
+      "tier": "classic",
+      "tags": [
+        "dense",
+        "login",
+        "auth-wall"
+      ],
+      "layout": "aws console login",
+      "nav": "https://ap-southeast-2.signin.aws.amazon.com/oauth?backwards_compatible=false&iam_user=true&scope=openid&response_type=code&code_challenge_method=SHA-256&redirect_uri=https%3A%2F%2Fap-southeast-2.console.aws.amazon.com%2Fconsole%2Fhome%3Fca-oauth-flow-id%3D3384%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_ap-southeast-2_18a084223ba8bdae%26useDefaultRegion%3Dtrue&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&code_challenge=0QBhh-Slz5yixBWRLf1vvckQ0RDR1DydcLWVC0Qzc20",
+      "clicks": [
+        "open console.aws.amazon.com"
+      ],
+      "notes": "Deep pages SKIP without login",
+      "privacy": "May show account/UI; redact before external share.",
+      "captured_at": "2026-11-01T23:06:05+08:00",
+      "full_px": "1792x1024",
+      "ai_px": "1792x1024",
+      "shot_full": "apps/aws-console/login/shot.png",
+      "shot_ai": "apps/aws-console/login/shot-ai.jpg",
+      "meta": "apps/aws-console/login/meta.json",
+      "bytes_full": 919965,
+      "bytes_ai": 91636
     }
   ]
 }

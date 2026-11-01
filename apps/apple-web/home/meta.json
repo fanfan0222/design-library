@@ -1,0 +1,37 @@
+{
+    "app":  "Apple",
+    "screen":  "home",
+    "title":  "官网首页",
+    "tier":  "classic",
+    "style_tags":  [
+                       "marketing",
+                       "hero",
+                       "apple"
+                   ],
+    "layout":  "apple.com home",
+    "nav":  "apple.com",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open apple.com"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:00:36+08:00",
+    "capture_mode":  "opencli-fullpage",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1779x6060",
+    "ai_px":  "1779x6060",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  1247875,
+                  "ai":  566035
+              },
+    "url":  "https://www.apple.com/",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

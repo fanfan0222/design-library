@@ -1,0 +1,36 @@
+{
+    "app":  "Google Drive",
+    "screen":  "home",
+    "title":  "我的云端硬盘",
+    "tier":  "classic",
+    "style_tags":  [
+                       "files",
+                       "list",
+                       "grid"
+                   ],
+    "layout":  "drive file browser",
+    "nav":  "https://drive.google.com/drive/u/0/my-drive",
+    "platform":  "web",
+    "source":  "OpenCLI page screenshot v2",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open drive"
+               ],
+    "notes":  "captured after open wait",
+    "privacy":  "May show filenames",
+    "captured_at":  "2026-11-01T23:12:38+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP; not fullscreen",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  154639,
+                  "ai":  112786
+              },
+    "url":  "https://drive.google.com/drive/u/0/my-drive",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md"
+}

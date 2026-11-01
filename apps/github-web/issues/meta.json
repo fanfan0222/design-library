@@ -1,0 +1,36 @@
+{
+    "app":  "GitHub",
+    "screen":  "issues",
+    "title":  "Issues",
+    "tier":  "classic",
+    "style_tags":  [
+                       "admin",
+                       "list"
+                   ],
+    "layout":  "github issues",
+    "nav":  "https://github.com/issues",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "location issues"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:02:22+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  182863,
+                  "ai":  99720
+              },
+    "url":  "https://github.com/issues",
+    "logged_in":  true,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

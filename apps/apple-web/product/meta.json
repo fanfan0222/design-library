@@ -1,0 +1,37 @@
+{
+    "app":  "Apple",
+    "screen":  "product",
+    "title":  "iPhone 产品页",
+    "tier":  "classic",
+    "style_tags":  [
+                       "marketing",
+                       "product-page",
+                       "apple"
+                   ],
+    "layout":  "iphone product page",
+    "nav":  "apple.com/iphone",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open /iphone"
+               ],
+    "notes":  "",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:00:51+08:00",
+    "capture_mode":  "opencli-fullpage",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1779x15735",
+    "ai_px":  "1779x15735",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  4001858,
+                  "ai":  3558457
+              },
+    "url":  "https://www.apple.com/iphone/",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}

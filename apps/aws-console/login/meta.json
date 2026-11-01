@@ -1,0 +1,37 @@
+{
+    "app":  "AWS Console",
+    "screen":  "login",
+    "title":  "登录墙",
+    "tier":  "classic",
+    "style_tags":  [
+                       "dense",
+                       "login",
+                       "auth-wall"
+                   ],
+    "layout":  "aws console login",
+    "nav":  "https://ap-southeast-2.signin.aws.amazon.com/oauth?backwards_compatible=false\u0026iam_user=true\u0026scope=openid\u0026response_type=code\u0026code_challenge_method=SHA-256\u0026redirect_uri=https%3A%2F%2Fap-southeast-2.console.aws.amazon.com%2Fconsole%2Fhome%3Fca-oauth-flow-id%3D3384%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_ap-southeast-2_18a084223ba8bdae%26useDefaultRegion%3Dtrue\u0026client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas\u0026code_challenge=0QBhh-Slz5yixBWRLf1vvckQ0RDR1DydcLWVC0Qzc20",
+    "platform":  "web",
+    "source":  "User Chrome on fanfan via OpenCLI browser screenshot (page viewport, NOT fullscreen)",
+    "tool":  "opencli",
+    "clicks":  [
+                   "open console.aws.amazon.com"
+               ],
+    "notes":  "Deep pages SKIP without login",
+    "privacy":  "May show account/UI; redact before external share.",
+    "captured_at":  "2026-11-01T23:06:05+08:00",
+    "capture_mode":  "opencli-viewport-1792x1024",
+    "resolution_note":  "OpenCLI CDP page screenshot; independent of desktop overlay (LoL/Win+P). Viewport CSS override when not full-page.",
+    "full_px":  "1792x1024",
+    "ai_px":  "1792x1024",
+    "shot_full":  "shot.png",
+    "shot_ai":  "shot-ai.jpg",
+    "bytes":  {
+                  "full":  919965,
+                  "ai":  91636
+              },
+    "url":  "https://ap-southeast-2.signin.aws.amazon.com/oauth?backwards_compatible=false\u0026iam_user=true\u0026scope=openid\u0026response_type=code\u0026code_challenge_method=SHA-256\u0026redirect_uri=https%3A%2F%2Fap-southeast-2.console.aws.amazon.com%2Fconsole%2Fhome%3Fca-oauth-flow-id%3D3384%26hashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_ap-southeast-2_18a084223ba8bdae%26useDefaultRegion%3Dtrue\u0026client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas\u0026code_challenge=0QBhh-Slz5yixBWRLf1vvckQ0RDR1DydcLWVC0Qzc20",
+    "logged_in":  false,
+    "machine":  "fanfan",
+    "style_doc":  "STYLE-GUIDE.md",
+    "page_text_snip":  ""
+}
