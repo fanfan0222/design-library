@@ -9,28 +9,43 @@
 :root{--page-max:1080px}
 html,body{margin:0;min-height:100%;font-family:var(--font);font-size:14px;line-height:1.45;background:var(--bg);color:var(--text)}
 a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}
-.preview-nav{display:flex;flex-wrap:wrap;align-items:center;gap:4px;padding:8px 16px;background:#111827;position:sticky;top:0;z-index:50}
-.preview-nav a{color:#d1d5db;text-decoration:none;padding:4px 8px;border-radius:4px;font-size:12px}
+[hidden]{display:none!important}
+main.screen[hidden]{display:none!important}
+
+/* 预览切页：右下角小浮层 */
+.preview-nav{position:fixed;right:16px;bottom:16px;z-index:100;display:flex;flex-direction:column-reverse;align-items:flex-end;gap:8px}
+.pn-toggle{height:32px;padding:0 14px;border:0;border-radius:999px;background:rgba(17,24,39,.88);color:#f3f4f6;font-size:12px;font-weight:500;box-shadow:0 4px 16px rgba(0,0,0,.25);backdrop-filter:blur(8px)}
+.pn-toggle:hover{background:rgba(17,24,39,.96)}
+.pn-panel{display:flex;flex-direction:column;gap:2px;min-width:160px;padding:10px;border-radius:12px;background:rgba(17,24,39,.94);box-shadow:0 8px 28px rgba(0,0,0,.35);backdrop-filter:blur(10px)}
+.pn-panel[hidden]{display:none!important}
+.pn-brand{color:#9ca3af;font-size:11px;padding:4px 8px 8px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:4px}
+.preview-nav a,.pn-action{display:block;width:100%;text-align:left;color:#d1d5db;text-decoration:none;padding:7px 10px;border-radius:6px;font-size:12px;border:0;background:transparent}
+.preview-nav a:hover,.pn-action:hover{color:#fff;background:rgba(255,255,255,.08)}
 .preview-nav a[aria-current="page"]{color:#fff;background:#374151}
-.pn-brand{color:#9ca3af;font-size:12px;margin-right:8px}
-.shell{min-height:calc(100vh - 40px);display:flex;flex-direction:column}
+@media print{
+  .preview-nav,main.screen[hidden],.modal-root{display:none!important}
+}
+
+.shell{min-height:100vh;display:flex;flex-direction:column}
 .topbar{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 24px;background:var(--surface);border-bottom:1px solid var(--line);flex-shrink:0}
 .brand{font-weight:600;text-decoration:none;letter-spacing:-0.02em}
 .topbar nav{display:flex;gap:16px;align-items:center;color:var(--muted)}
 .topbar nav a{text-decoration:none}
 .topbar nav a:hover{color:var(--text)}
 .muted{color:var(--muted)}.link,.link-quiet{color:var(--accent);text-decoration:none}
-/* 唯一内容宽：landing / list / admin-main 共用 */
-.page{width:min(var(--page-max),calc(100% - 48px));margin:0 auto;padding:24px 0 48px}
-/* 短页/表单：垂直水平居中列 */
-.page.page-center{flex:1;display:flex;align-items:center;justify-content:center;padding:32px 0 48px;width:min(var(--page-max),calc(100% - 48px))}
-.page-center-inner{display:flex;align-items:center;justify-content:center;min-height:calc(100vh - 160px);padding:24px 0}
+
+/* 唯一内容宽：landing / list / mail / admin-main 共用 */
+.page{width:min(var(--page-max),calc(100% - 48px));margin:0 auto;padding:24px 0 48px;flex:1;display:flex;flex-direction:column}
+.page.page-center{align-items:center;justify-content:center;padding:32px 0 48px}
+.page-center-inner{display:flex;align-items:center;justify-content:center;flex:1;min-height:calc(100vh - 160px);padding:24px 0;width:100%}
 .form-shell{width:min(480px,100%);margin:0 auto}
 .form-shell.form-shell-mail,.form-shell.mail{width:min(520px,100%)}
 .form-shell:not(.mail){padding:28px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+
 h1{margin:0 0 8px;font-size:22px;font-weight:600;letter-spacing:-0.02em}
+h2{margin:0;font-size:18px;font-weight:600}
 .sub{margin:0 0 20px;color:var(--muted)}.eyebrow{margin:0 0 8px;font-size:12px;color:var(--accent);font-weight:500}
-.hero{display:grid;grid-template-columns:1fr 1.15fr;gap:32px;align-items:start;padding:28px 0}
+.hero{display:grid;grid-template-columns:1fr 1.15fr;gap:32px;align-items:start;padding:28px 0;width:100%}
 .mail-row{display:flex;gap:8px;margin-top:16px}
 .mail-row input{flex:1;height:40px;padding:0 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--input-bg,var(--surface));color:var(--text)}
 .btn{display:inline-flex;align-items:center;justify-content:center;height:36px;padding:0 14px;border:1px solid transparent;border-radius:var(--radius-sm);background:var(--primary);color:var(--primary-fg,#fff);text-decoration:none;white-space:nowrap;font-weight:500}
@@ -39,12 +54,9 @@ h1{margin:0 0 8px;font-size:22px;font-weight:600;letter-spacing:-0.02em}
 .btn.secondary:hover{background:var(--bg)}
 .btn.danger{background:var(--surface);color:var(--danger);border-color:var(--line)}
 .hint{margin:8px 0 0;color:var(--muted);font-size:12px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.panel.pad{padding:20px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;width:100%}
+.panel.pad{padding:20px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;width:100%}
 .toolbar-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:flex-end}
-.proto-toggle{display:inline-flex;gap:2px;padding:2px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
-.proto-chip{height:26px;padding:0 10px;border:0;border-radius:999px;background:transparent;color:var(--muted);font-size:11px}
-.proto-chip.active{background:var(--chip-active-bg,var(--primary));color:var(--chip-active-fg,#fff)}
 table{width:100%;border-collapse:collapse;table-layout:fixed}
 th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 th{font-weight:500;color:var(--muted);background:var(--th-bg,transparent);font-size:12px}
@@ -71,16 +83,28 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
 .mail-summary{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 20px;padding:14px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--th-bg,transparent)}
 .mail-summary span{display:block;font-size:11px;color:var(--muted);margin-bottom:2px}
 .mail-summary strong{font-weight:560}
-.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;width:100%}
 .filter-chip{height:28px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:12px}
 .filter-chip.active{background:var(--chip-active-bg,var(--primary));color:var(--chip-active-fg,#fff);border-color:transparent}
-.admin-layout{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 92px);flex:1}
+.admin-layout{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 52px);flex:1}
 .admin-side{border-right:1px solid var(--line);background:var(--side-bg,var(--surface));padding:12px;display:flex;flex-direction:column;gap:4px}
 .side-item{text-align:left;border:0;background:transparent;color:var(--muted);padding:8px 12px;border-radius:var(--radius-sm);font-weight:500}
 .side-item:hover{background:var(--side-hover);color:var(--text)}
 .side-item.active{background:var(--side-active);color:var(--text)}
 .admin-main{padding:24px;overflow:auto;display:flex;flex-direction:column;align-items:center}
 .admin-main .admin-panel{width:min(var(--page-max),100%)}
+
+/* Modal */
+.modal-root{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center;padding:24px}
+.modal-root[hidden]{display:none!important}
+.modal-backdrop{position:absolute;inset:0;background:rgba(15,15,18,.48);backdrop-filter:blur(2px)}
+.modal-panel{position:relative;z-index:1;width:min(520px,100%);max-height:calc(100vh - 48px);overflow:auto;padding:22px 24px 24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 20px 50px rgba(0,0,0,.22)}
+.modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:6px}
+.modal-x{width:32px;height:32px;border:0;border-radius:var(--radius-sm);background:transparent;color:var(--muted);font-size:20px;line-height:1}
+.modal-x:hover{background:var(--bg);color:var(--text)}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:4px}
+body.modal-open{overflow:hidden}
+
 .btn:focus-visible,input:focus-visible,select:focus-visible,.topbar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:860px){
   .hero,.cols,.mail-summary{grid-template-columns:1fr}
@@ -113,19 +137,24 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
 </head>
 <body>
 
-<nav class="preview-nav" aria-label="设计稿切页">
-  <span class="pn-brand">TravelWatch · B · GitHub Issues 多客户流</span>
-  <a href="#landing">首页</a>
-  <a href="#list">监控列表</a>
-  <a href="#new">新建</a>
-  <a href="#mail">到货邮件</a>
-  <a href="#admin">运营台</a>
-</nav>
+<!-- 预览切页：右下角小浮层，默认收起 -->
+<div class="preview-nav" id="preview-nav" aria-label="设计稿切页">
+  <button type="button" class="pn-toggle" id="pn-toggle" aria-expanded="false" aria-controls="pn-panel">切页</button>
+  <div class="pn-panel" id="pn-panel" hidden>
+    <span class="pn-brand">TravelWatch · B · GitHub Issues 多客户流</span>
+    <a href="#landing" data-nav="#landing" data-landing-state="hero">首页</a>
+    <a href="#list" data-nav="#list">监控列表</a>
+    <a href="#mail" data-nav="#mail">到货邮件</a>
+    <a href="#admin" data-nav="#admin">运营台</a>
+    <button type="button" class="pn-action" data-list-state="empty">空列表</button>
+    <button type="button" class="pn-action" data-open-new>新建弹层</button>
+  </div>
+</div>
 
-<!-- LANDING：同页含 hero / 登录态 / 已发送态 -->
+<!-- LANDING：同页含 hero / 登录态 / 已发送态；外框始终满版心 -->
 <main id="landing" class="screen shell">
   <header class="topbar">
-    <a class="brand" href="#landing" data-nav="#landing">TravelWatch</a>
+    <a class="brand" href="#landing" data-nav="#landing" data-landing-state="hero">TravelWatch</a>
     <nav>
       <a href="#landing" data-nav="#landing" data-landing-state="login" class="js-landing-login">登录</a>
     </nav>
@@ -141,7 +170,7 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
           <input type="email" name="email" placeholder="邮箱" autocomplete="email" required />
           <button class="btn" type="submit">开始监控</button>
         </form>
-        <p class="hint">Magic Link 登录 · 不代下单 · 不聊天壳</p>
+        <p class="hint">Magic Link 登录 · 不代下单</p>
       </div>
       <div class="panel">
         <table>
@@ -155,7 +184,7 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
       </div>
     </section>
 
-    <!-- 登录态（同页） -->
+    <!-- 登录态：外框满版心，卡居中 -->
     <section class="landing-panel page-center-inner" data-landing="login" hidden>
       <div class="form-shell">
         <h1>登录</h1>
@@ -170,7 +199,7 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
       </div>
     </section>
 
-    <!-- 已发送态（同页） -->
+    <!-- 已发送态 -->
     <section class="landing-panel page-center-inner" data-landing="sent" hidden>
       <div class="form-shell">
         <h1>请查收邮件</h1>
@@ -183,10 +212,10 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
   </div>
 </main>
 
-<!-- LIST：同页可切有数据 / 空列表 -->
+<!-- LIST：有数据/空列表；新建为 modal -->
 <main id="list" class="screen shell" hidden>
   <header class="topbar">
-    <a class="brand" href="#landing" data-nav="#landing">TravelWatch</a>
+    <a class="brand" href="#landing" data-nav="#landing" data-landing-state="hero">TravelWatch</a>
     <nav>
       <span class="muted">you@example.com</span>
       <a href="#admin" data-nav="#admin" class="link-quiet">运营台</a>
@@ -199,11 +228,7 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
         <p class="sub js-list-sub">有票后会发邮件，并附官方购票链接。</p>
       </div>
       <div class="toolbar-right">
-        <div class="proto-toggle" role="group" aria-label="列表状态（设计用）">
-          <button type="button" class="proto-chip active" data-list-state="filled">有数据</button>
-          <button type="button" class="proto-chip" data-list-state="empty">空列表</button>
-        </div>
-        <a class="btn" href="#new" data-nav="#new">新建监控</a>
+        <button class="btn" type="button" data-open-new>新建监控</button>
       </div>
     </div>
     
@@ -252,32 +277,30 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
     </div>
     <div class="panel empty js-list-empty" hidden>
       <p>还没有监控任务。选一个景点和日期后，有票会发到你的邮箱。</p>
-      <p style="margin-top:16px"><a class="btn" href="#new" data-nav="#new">新建监控</a></p>
+      <p style="margin-top:16px"><button class="btn" type="button" data-open-new>新建监控</button></p>
     </div>
   </div>
-</main>
 
-<!-- NEW -->
-<main id="new" class="screen shell" hidden>
-  <header class="topbar">
-    <a class="brand" href="#landing" data-nav="#landing">TravelWatch</a>
-    <nav><a href="#list" data-nav="#list">返回列表</a></nav>
-  </header>
-  <div class="page page-center">
-    <div class="form-shell">
-      <h1>新建监控</h1>
+  <!-- 新建监控 modal：叠在列表上，宽约 480–520 -->
+  <div class="modal-root" id="new-modal" hidden>
+    <div class="modal-backdrop" data-close-new tabindex="-1"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="new-title">
+      <div class="modal-head">
+        <h2 id="new-title">新建监控</h2>
+        <button type="button" class="modal-x" data-close-new aria-label="关闭">×</button>
+      </div>
       <p class="sub">系统按你填写的条件查询官方库存。</p>
-      <form class="form" data-nav="#list">
+      <form class="form" id="new-form">
         <div class="pick">
           <label>
             <input type="radio" name="site" value="vatican" checked />
             <strong>梵蒂冈博物馆</strong>
-            <em>按日期查询入场票 · provider: vatican</em>
+            <em>按日期查询入场票</em>
           </label>
           <label>
             <input type="radio" name="site" value="hurtigruten" />
             <strong>Hurtigruten 港到港</strong>
-            <em>特罗姆瑟出发舱位 · provider: hurtigruten</em>
+            <em>特罗姆瑟出发舱位</em>
           </label>
         </div>
         <label id="route-fields" hidden>
@@ -307,18 +330,21 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
         </div>
         <label class="check">
           <input type="checkbox" name="enabled" checked />
-          <span>启用监控（enabled）</span>
+          <span>启用监控</span>
         </label>
-        <button class="btn" type="submit">保存并开始监控</button>
+        <div class="modal-actions">
+          <button class="btn secondary" type="button" data-close-new>取消</button>
+          <button class="btn" type="submit">保存并开始监控</button>
+        </div>
       </form>
     </div>
   </div>
 </main>
 
-<!-- MAIL -->
+<!-- MAIL：外框满版心，信纸卡居中 -->
 <main id="mail" class="screen shell" hidden>
   <header class="topbar">
-    <a class="brand" href="#landing" data-nav="#landing">TravelWatch</a>
+    <a class="brand" href="#landing" data-nav="#landing" data-landing-state="hero">TravelWatch</a>
   </header>
   <div class="page page-center">
     <article class="form-shell form-shell-mail mail">
@@ -340,7 +366,7 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
 <!-- ADMIN -->
 <main id="admin" class="screen shell admin-shell" hidden>
   <header class="topbar">
-    <a class="brand" href="#landing" data-nav="#landing">TravelWatch</a>
+    <a class="brand" href="#landing" data-nav="#landing" data-landing-state="hero">TravelWatch</a>
     <nav><span class="muted">运营 · you@example.com</span></nav>
   </header>
   <div class="admin-layout">
@@ -355,13 +381,13 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
         <div class="toolbar">
           <div>
             <h1>全部监控</h1>
-            <p class="sub">跨客户任务总览 · provider / 港口 / 日期 / 人数 / enabled</p>
+            <p class="sub">跨客户任务总览</p>
           </div>
-          <a class="btn" href="#new" data-nav="#new">代客新建</a>
+          <button class="btn" type="button" data-open-new>代客新建</button>
         </div>
         <div class="panel">
           <table>
-            <thead><tr><th>客户</th><th>地点</th><th>日期</th><th>人数</th><th>enabled</th><th>状态</th></tr></thead>
+            <thead><tr><th>客户</th><th>地点</th><th>日期</th><th>人数</th><th>启用</th><th>状态</th></tr></thead>
             <tbody>
               <tr><td>Durant</td><td>梵蒂冈博物馆</td><td>2026-12-24</td><td>2</td><td>是</td><td><span class="pill ok">有票</span></td></tr>
               <tr><td>小红书·阿梨</td><td>特罗姆瑟 → 斯沃尔韦尔</td><td>2027-02-26</td><td>1</td><td>是</td><td><span class="pill watch">监控中</span></td></tr>
@@ -428,9 +454,13 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
 
 <script>
 (function () {
-  const KNOWN = new Set(["landing", "list", "new", "mail", "admin"]);
+  const KNOWN = new Set(["landing", "list", "mail", "admin"]);
   const screens = [...document.querySelectorAll("main.screen")];
-  const navLinks = [...document.querySelectorAll(".preview-nav a")];
+  const navLinks = [...document.querySelectorAll(".preview-nav a[data-nav], .pn-panel a[data-nav]")];
+  const modal = document.getElementById("new-modal");
+  const pn = document.getElementById("preview-nav");
+  const pnToggle = document.getElementById("pn-toggle");
+  const pnPanel = document.getElementById("pn-panel");
 
   function setLandingState(state) {
     const next = state || "hero";
@@ -449,46 +479,89 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
     if (sub) sub.textContent = empty
       ? "还没有监控任务。"
       : "有票后会发邮件，并附官方购票链接。";
-    document.querySelectorAll("[data-list-state]").forEach((btn) => {
-      btn.classList.toggle("active", btn.getAttribute("data-list-state") === (empty ? "empty" : "filled"));
-    });
   }
 
-  function show(raw) {
+  function openNewModal() {
+    // 确保在 list 屏
+    if (document.getElementById("list").hidden) {
+      go("#list");
+    }
+    if (modal) {
+      modal.hidden = false;
+      document.body.classList.add("modal-open");
+      const first = modal.querySelector('input[name="site"]:checked, input, button');
+      if (first) setTimeout(() => first.focus(), 0);
+    }
+    closePreviewPanel();
+  }
+
+  function closeNewModal() {
+    if (modal) modal.hidden = true;
+    document.body.classList.remove("modal-open");
+  }
+
+  function closePreviewPanel() {
+    if (pnPanel) pnPanel.hidden = true;
+    if (pnToggle) pnToggle.setAttribute("aria-expanded", "false");
+    if (pn) pn.classList.remove("open");
+  }
+
+  function togglePreviewPanel() {
+    const open = pnPanel && pnPanel.hidden;
+    if (pnPanel) pnPanel.hidden = !open;
+    if (pnToggle) pnToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (pn) pn.classList.toggle("open", !!open);
+  }
+
+  function show(raw, opts) {
+    opts = opts || {};
     let hash = String(raw || "").replace(/^#/, "") || "landing";
-    // 旧锚点兼容：login/sent → landing 同页态；empty → list 空态
+    // 旧锚点兼容
     if (hash === "login") { hash = "landing"; setLandingState("login"); }
     else if (hash === "sent") { hash = "landing"; setLandingState("sent"); }
     else if (hash === "empty") { hash = "list"; setListState("empty"); }
+    else if (hash === "new") { hash = "list"; opts.openNew = true; }
     else if (!KNOWN.has(hash)) { hash = "landing"; setLandingState("hero"); }
-    else if (hash === "landing") { /* keep current landing panel unless forced */ }
+    else if (hash === "landing" && opts.landingState) { setLandingState(opts.landingState); }
+    else if (hash === "landing" && !opts.keepLanding) { setLandingState("hero"); }
 
     screens.forEach((el) => { el.hidden = el.id !== hash; });
     navLinks.forEach((a) => {
       const href = a.getAttribute("href") || "";
       a.toggleAttribute("aria-current", href === "#" + hash);
     });
+    if (hash !== "list") closeNewModal();
+    if (opts.openNew) openNewModal();
     window.scrollTo(0, 0);
   }
 
-  function go(hash, landingState) {
+  function go(hash, landingState, extra) {
     const id = String(hash || "#landing").replace(/^#/, "") || "landing";
-    if (id === "landing" && landingState) setLandingState(landingState);
-    else if (id === "landing" && !landingState) setLandingState("hero");
-    if (location.hash === "#" + id) show("#" + id);
-    else location.hash = id;
-    // hashchange 会再调 show；同 hash 时上面已直接 show
-    if (location.hash === "#" + id) show("#" + id);
+    const opts = Object.assign({}, extra || {});
+    if (id === "landing") {
+      opts.landingState = landingState || "hero";
+      opts.keepLanding = true;
+      setLandingState(opts.landingState);
+    }
+    if (location.hash === "#" + id) {
+      show("#" + id, opts);
+    } else {
+      // stash opts for hashchange
+      window.__twOpts = opts;
+      location.hash = id;
+      show("#" + id, opts);
+    }
   }
 
   function current() {
     const h = location.hash.slice(1) || "landing";
-    if (h === "landing" && !document.querySelector('[data-landing="login"]:not([hidden]), [data-landing="sent"]:not([hidden])')) {
-      // 初次进入或未知：默认 hero；若已有可见态则保留
+    const opts = window.__twOpts || {};
+    window.__twOpts = null;
+    if (h === "landing" && !opts.landingState && !opts.keepLanding) {
       const visible = document.querySelector("[data-landing]:not([hidden])");
       if (!visible) setLandingState("hero");
     }
-    show("#" + h);
+    show("#" + h, opts);
   }
 
   function syncRoute() {
@@ -497,19 +570,54 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
     if (route) route.hidden = picked?.value !== "hurtigruten";
   }
 
-  // 站内 a[href^="#"]：统一 JS 跳转（file:// 稳）
   document.addEventListener("click", (event) => {
     const a = event.target.closest('a[href^="#"]');
-    if (!a) return;
-    // 外部 / 新开窗不拦
-    if (a.target === "_blank") return;
-    event.preventDefault();
-    const href = a.getAttribute("href") || "#landing";
-    const landingState = a.getAttribute("data-landing-state");
-    go(href, landingState || undefined);
+    if (a && a.target !== "_blank") {
+      event.preventDefault();
+      const href = a.getAttribute("href") || "#landing";
+      const landingState = a.getAttribute("data-landing-state");
+      go(href, landingState || undefined);
+      closePreviewPanel();
+      return;
+    }
+
+    if (event.target.closest("[data-open-new]")) {
+      event.preventDefault();
+      openNewModal();
+      return;
+    }
+    if (event.target.closest("[data-close-new]")) {
+      event.preventDefault();
+      closeNewModal();
+      return;
+    }
+    if (event.target.closest("[data-list-state]")) {
+      const btn = event.target.closest("[data-list-state]");
+      go("#list");
+      setListState(btn.getAttribute("data-list-state"));
+      closePreviewPanel();
+      return;
+    }
   });
 
-  // form：data-nav 跳屏；data-landing-submit 同页切态
+  if (pnToggle) {
+    pnToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      togglePreviewPanel();
+    });
+  }
+  document.addEventListener("click", (e) => {
+    if (pn && pn.classList.contains("open") && !pn.contains(e.target)) {
+      closePreviewPanel();
+    }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      if (modal && !modal.hidden) closeNewModal();
+      else closePreviewPanel();
+    }
+  });
+
   document.querySelectorAll("form").forEach((form) => {
     form.addEventListener("submit", (event) => {
       event.preventDefault();
@@ -520,6 +628,12 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
         document.querySelectorAll(".js-sent-email").forEach((el) => { el.textContent = email; });
         setLandingState(landingSubmit);
         go("#landing", landingSubmit);
+        return;
+      }
+      if (form.id === "new-form") {
+        closeNewModal();
+        setListState("filled");
+        go("#list");
         return;
       }
       const nav = form.getAttribute("data-nav") || form.getAttribute("action");
@@ -545,15 +659,19 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
     });
   });
 
-  // 列表空态切换：button，不换 hash
-  document.querySelectorAll("[data-list-state]").forEach((btn) => {
-    btn.addEventListener("click", () => setListState(btn.getAttribute("data-list-state")));
+  // admin 代客新建：切到 list 再弹
+  document.querySelectorAll("#admin [data-open-new]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      go("#list", undefined, { openNew: true });
+    });
   });
 
   window.addEventListener("hashchange", current);
   syncRoute();
   setLandingState("hero");
   setListState("filled");
+  closeNewModal();
   current();
 })();
 </script>
