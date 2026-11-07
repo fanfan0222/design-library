@@ -19,7 +19,7 @@ BODY = r'''
   </div>
 </div>
 
-<!-- LANDING：同页含 hero / 登录态 / 已发送态；外框始终满版心 -->
+<!-- LANDING：同页含 hero / 登录态 / 已发送态；外框流体全宽 -->
 <main id="landing" class="screen shell">
   <header class="topbar">
     <a class="brand" href="#landing" data-nav="#landing" data-landing-state="hero">TravelWatch</a>
@@ -30,7 +30,7 @@ BODY = r'''
   <div class="page">
     <!-- hero（默认） -->
     <section class="hero landing-panel" data-landing="hero">
-      <div>
+      <div class="hero-copy">
         <p class="eyebrow">票务监控 · 邮件通知</p>
         <h1>热门票务有货时通知你</h1>
         <p class="sub">选好地点和日期，系统替你查官方库存。有票发邮件，购买仍在官网完成。</p>
@@ -52,7 +52,7 @@ BODY = r'''
       </div>
     </section>
 
-    <!-- 登录态：外框满版心，卡居中 -->
+    <!-- 登录态：外框全宽，卡居中 -->
     <section class="landing-panel page-center-inner" data-landing="login" hidden>
       <div class="form-shell">
         <h1>登录</h1>
@@ -541,7 +541,7 @@ JS = r'''
 
 BASE_CSS = r'''
 *,*::before,*::after{box-sizing:border-box}
-:root{--page-max:1080px}
+:root{--page-pad:clamp(16px, 3vw, 48px)}
 html,body{margin:0;min-height:100%;font-family:var(--font);font-size:14px;line-height:1.45;background:var(--bg);color:var(--text)}
 a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}
 [hidden]{display:none!important}
@@ -562,16 +562,16 @@ main.screen[hidden]{display:none!important}
 }
 
 .shell{min-height:100vh;display:flex;flex-direction:column}
-.topbar{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 24px;background:var(--surface);border-bottom:1px solid var(--line);flex-shrink:0}
+.topbar{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 var(--page-pad);background:var(--surface);border-bottom:1px solid var(--line);flex-shrink:0}
 .brand{font-weight:600;text-decoration:none;letter-spacing:-0.02em}
 .topbar nav{display:flex;gap:16px;align-items:center;color:var(--muted)}
 .topbar nav a{text-decoration:none}
 .topbar nav a:hover{color:var(--text)}
 .muted{color:var(--muted)}.link,.link-quiet{color:var(--accent);text-decoration:none}
 
-/* 唯一内容宽：landing / list / mail / admin-main 共用 */
-.page{width:min(var(--page-max),calc(100% - 48px));margin:0 auto;padding:24px 0 48px;flex:1;display:flex;flex-direction:column}
-.page.page-center{align-items:center;justify-content:center;padding:32px 0 48px}
+/* 流体主区：列表/落地/邮件/运营台随视口走，仅用 padding，不写死版心像素 */
+.page{width:100%;max-width:none;margin:0;padding:24px var(--page-pad) 48px;flex:1;display:flex;flex-direction:column;box-sizing:border-box}
+.page.page-center{align-items:center;justify-content:center;padding:32px var(--page-pad) 48px}
 .page-center-inner{display:flex;align-items:center;justify-content:center;flex:1;min-height:calc(100vh - 160px);padding:24px 0;width:100%}
 .form-shell{width:min(480px,100%);margin:0 auto}
 .form-shell.form-shell-mail,.form-shell.mail{width:min(520px,100%)}
@@ -580,7 +580,8 @@ main.screen[hidden]{display:none!important}
 h1{margin:0 0 8px;font-size:22px;font-weight:600;letter-spacing:-0.02em}
 h2{margin:0;font-size:18px;font-weight:600}
 .sub{margin:0 0 20px;color:var(--muted)}.eyebrow{margin:0 0 8px;font-size:12px;color:var(--accent);font-weight:500}
-.hero{display:grid;grid-template-columns:1fr 1.15fr;gap:32px;align-items:start;padding:28px 0;width:100%}
+.hero{display:grid;grid-template-columns:minmax(0,40rem) minmax(0,1.4fr);gap:clamp(24px,4vw,48px);align-items:start;padding:28px 0;width:100%}
+.hero-copy{max-width:40rem}
 .mail-row{display:flex;gap:8px;margin-top:16px}
 .mail-row input{flex:1;height:40px;padding:0 12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--input-bg,var(--surface));color:var(--text)}
 .btn{display:inline-flex;align-items:center;justify-content:center;height:36px;padding:0 14px;border:1px solid transparent;border-radius:var(--radius-sm);background:var(--primary);color:var(--primary-fg,#fff);text-decoration:none;white-space:nowrap;font-weight:500}
@@ -626,8 +627,8 @@ input[type="email"],input[type="text"],input[type="date"],input[type="number"],s
 .side-item{text-align:left;border:0;background:transparent;color:var(--muted);padding:8px 12px;border-radius:var(--radius-sm);font-weight:500}
 .side-item:hover{background:var(--side-hover);color:var(--text)}
 .side-item.active{background:var(--side-active);color:var(--text)}
-.admin-main{padding:24px;overflow:auto;display:flex;flex-direction:column;align-items:center}
-.admin-main .admin-panel{width:min(var(--page-max),100%)}
+.admin-main{padding:24px var(--page-pad);overflow:auto;display:flex;flex-direction:column}
+.admin-main .admin-panel{width:100%;max-width:none}
 
 /* Modal */
 .modal-root{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center;padding:24px}
@@ -643,7 +644,7 @@ body.modal-open{overflow:hidden}
 .btn:focus-visible,input:focus-visible,select:focus-visible,.topbar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:860px){
   .hero,.cols,.mail-summary{grid-template-columns:1fr}
-  .page,.page.page-center{width:calc(100% - 24px)}
+  .hero-copy{max-width:none}
   table{table-layout:auto;min-width:680px}
   .panel{overflow-x:auto}
   .admin-layout{grid-template-columns:1fr}
@@ -753,13 +754,13 @@ INDEX = '''<!doctype html>
   <title>TravelWatch · 原型入口</title>
   <style>
     *{box-sizing:border-box}
-    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:#0b0b0f;color:#eee;min-height:100vh;padding:48px 24px}
-    .wrap{width:min(960px,100%);margin:0 auto}
+    body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:#0b0b0f;color:#eee;min-height:100vh;padding:48px 0}
+    .wrap{width:100%;max-width:none;margin:0;padding-inline:clamp(16px,3vw,48px);box-sizing:border-box}
     .badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:#14532d;color:#86efac;font-size:12px;font-weight:500;margin-bottom:16px}
     h1{margin:0 0 10px;font-size:32px;letter-spacing:-0.03em;font-weight:600}
     .lead{margin:0 0 8px;color:#d4d4d8;font-size:15px;line-height:1.55;max-width:640px}
     .note{margin:0 0 28px;color:#71717a;font-size:13px;line-height:1.5}
-    .cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));max-width:1200px}
     a.card{display:flex;flex-direction:column;padding:22px;border-radius:16px;text-decoration:none;color:inherit;border:1px solid #27272a;background:#141418;min-height:180px;transition:border-color .15s}
     a.card:hover{border-color:#6366f1}
     .tag{font-size:11px;color:#a5b4fc;margin-bottom:10px;font-weight:500;letter-spacing:.02em}
@@ -772,7 +773,7 @@ INDEX = '''<!doctype html>
 </head>
 <body>
   <div class="wrap">
-    <div class="badge">4 主屏 · 新建弹层 · 版心 1080px</div>
+    <div class="badge">4 主屏 · 新建弹层 · 流体全宽</div>
     <h1>TravelWatch 原型</h1>
     <p class="lead">主路径：首页（含登录/已发送）→ 监控列表（新建为弹层）→ 到货邮件；运营台独立。</p>
     <p class="note">右下角「切页」可切主屏 / 空列表 / 打开新建弹层。登录与查收并入首页；新建不再单独成页。打印时切页浮层隐藏。</p>
